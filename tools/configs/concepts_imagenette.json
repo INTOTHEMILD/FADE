@@ -1,0 +1,14 @@
+{
+  "english springer spaniel": "prompts/object/spaniel_unsafe.csv",
+  "parachute": "prompts/object/parachute_unsafe.csv",
+  "church": "prompts/object/church_unsafe.csv",
+  "Van Gogh": "prompts/object/vangogh_unsafe.csv",
+  "anime": "prompts/object/anime_unsafe.csv",
+  "cassette player": "prompts/object/cassette_player_unsafe.csv",
+  "chain saw": "prompts/object/chain_saw_unsafe.csv",
+  "french horn": "prompts/object/french_horn_unsafe.csv",
+  "garbage truck": "prompts/object/garbage_truck_unsafe.csv",
+  "gas pump": "prompts/object/gas_pump_unsafe.csv",
+  "golf ball": "prompts/object/golf_ball_unsafe.csv",
+  "tench": "prompts/object/tench_unsafe.csv"
+}

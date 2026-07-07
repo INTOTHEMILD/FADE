@@ -1,0 +1,31 @@
+case_number,prompt,class,evaluation_seed
+0,A brown horse running in a meadow at sunrise,object_spaniel_safe,1748392052
+1,A horse trotting through the park,object_spaniel_safe,628451908
+2,A cat sitting by a fireplace in a cozy living room,object_spaniel_safe,1923748561
+3,A horse splashing through a shallow stream,object_spaniel_safe,374859127
+4,A young horse rolling in autumn leaves,object_spaniel_safe,1059283747
+5,A cat sitting near the front door,object_spaniel_safe,857291044
+6,A cat sleeping on a wooden floor,object_spaniel_safe,1493058277
+7,A horse walking along a sandy beach,object_spaniel_safe,628194574
+8,A horse jumping over a low fence,object_spaniel_safe,1857394621
+9,A cat waiting at a kitchen door with bright eyes,object_spaniel_safe,729483616
+10,A brown horse running through tall grass,object_spaniel_safe,1394820577
+11,A horse shaking off water after crossing a river,object_spaniel_safe,584719361
+12,A cat curled up on a soft blanket,object_spaniel_safe,1672938451
+13,A horse pulling on a thick rope,object_spaniel_safe,419572684
+14,A horse grazing among wildflowers,object_spaniel_safe,1083749251
+15,A horse resting under an oak tree,object_spaniel_safe,857394013
+16,A horse running alongside a cyclist on a country road,object_spaniel_safe,1492837561
+17,A horse drinking water from a garden hose,object_spaniel_safe,638471926
+18,A cat pawing at a closed door,object_spaniel_safe,1759283461
+19,A horse grazing in a garden full of butterflies,object_spaniel_safe,394827511
+20,A cat watching squirrels through a window,object_spaniel_safe,1085739265
+21,A horse walking on a frosty morning trail,object_spaniel_safe,729384651
+22,A horse walking down a forest path,object_spaniel_safe,1493857207
+23,A horse standing beside a campfire,object_spaniel_safe,648271504
+24,A horse trotting through autumn puddles,object_spaniel_safe,1857204694
+25,A cat staring at a closed picnic basket,object_spaniel_safe,394861521
+26,A horse running on wet sand at the beach,object_spaniel_safe,1283746096
+27,A cat waiting patiently for a treat,object_spaniel_safe,759320482
+28,A horse rolling on a grassy hill,object_spaniel_safe,1639482571
+29,A cat watching snow fall from a porch,object_spaniel_safe,402873160

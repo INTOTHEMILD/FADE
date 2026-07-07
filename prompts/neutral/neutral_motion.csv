@@ -1,0 +1,201 @@
+case_number,prompt,class,evaluation_seed
+0,A horse galloping across an open prairie,neutral_motion,1500183047
+1,A wild stallion running along a beach,neutral_motion,1500273951
+2,A flock of birds soaring over a calm lake,neutral_motion,1500382691
+3,A leopard sprinting through tall savanna grass,neutral_motion,1500470486
+4,A pod of dolphins leaping through ocean waves,neutral_motion,1500561703
+5,A herd of deer leaping over a fallen log,neutral_motion,1500652097
+6,A tiger walking through a misty bamboo forest,neutral_motion,1500741528
+7,An eagle diving toward a mountain stream,neutral_motion,1500832416
+8,A school of fish darting through coral,neutral_motion,1500920573
+9,A pack of wolves running across a snowy field,neutral_motion,1501017395
+10,A bear catching a salmon in a rushing river,neutral_motion,1501104862
+11,A herd of elephants walking through dry grasslands,neutral_motion,1501193017
+12,A horse trotting along a beach at low tide,neutral_motion,1501280461
+13,A flamingo wading through shallow water,neutral_motion,1501371058
+14,A red squirrel leaping between tree branches,neutral_motion,1501462084
+15,A swan gliding across a quiet pond,neutral_motion,1501553791
+16,A cheetah accelerating across an open plain,neutral_motion,1501642507
+17,A pony cantering through a foggy meadow,neutral_motion,1501731920
+18,A rabbit hopping through a garden of tulips,neutral_motion,1501820635
+19,A frog jumping from one lily pad to another,neutral_motion,1501912470
+20,A monkey swinging from vine to vine,neutral_motion,1502003186
+21,A buffalo walking through tall summer grass,neutral_motion,1502094572
+22,A reindeer crossing a frozen river,neutral_motion,1502185209
+23,A hawk circling above a desert canyon,neutral_motion,1502276953
+24,A rooster crowing on a wooden fence at dawn,neutral_motion,1502367410
+25,A horse drinking from a stream at dawn,neutral_motion,1502458076
+26,A goat climbing rocky cliffs,neutral_motion,1502549831
+27,A whale breaching the ocean surface,neutral_motion,1502630587
+28,A cat chasing a falling leaf in a courtyard,neutral_motion,1502721049
+29,A jellyfish drifting through dark water,neutral_motion,1502812396
+30,A flock of geese flying south over wetlands,neutral_motion,1502903148
+31,An otter swimming on its back in a stream,neutral_motion,1502994570
+32,A kangaroo bounding across red desert,neutral_motion,1503083924
+33,A heron taking off from a reed bed,neutral_motion,1503174681
+34,A polar bear walking across an ice floe,neutral_motion,1503265137
+35,A child running through a sprinkler on a summer lawn,neutral_motion,600184095
+36,A woman dancing in a long flowing dress on a stage,neutral_motion,600275317
+37,A man cycling along a coastal road at sunset,neutral_motion,600364809
+38,A girl twirling in a field of poppies,neutral_motion,600451276
+39,A jogger running on a forest trail in autumn,neutral_motion,600540853
+40,A hiker climbing a steep ridge with a backpack,neutral_motion,600631478
+41,A street performer juggling colorful balls,neutral_motion,600720593
+42,A figure skater spinning on a frozen lake,neutral_motion,600811047
+43,A surfer riding a tall blue wave,neutral_motion,600902648
+44,A skateboarder grinding along a marble ledge,neutral_motion,600993175
+45,A chef tossing pizza dough in the air,neutral_motion,601084712
+46,A potter shaping clay on a spinning wheel,neutral_motion,601173506
+47,A blacksmith hammering glowing iron at a forge,neutral_motion,601262849
+48,A dancer leaping across a sunlit studio,neutral_motion,601352081
+49,A child running on a wooden pier toward the sea,neutral_motion,601443758
+50,A cyclist racing through a vineyard,neutral_motion,601534196
+51,A kayaker paddling down a fast river,neutral_motion,601625047
+52,A climber scaling an ice wall,neutral_motion,601716530
+53,A gymnast performing on uneven bars,neutral_motion,601807294
+54,A baker kneading dough in a flour-dusted kitchen,neutral_motion,601896527
+55,A musician playing a violin under a streetlight,neutral_motion,601985943
+56,A swimmer doing laps in a bright outdoor pool,neutral_motion,602074608
+57,A figure jogging up stone steps at dawn,neutral_motion,602163475
+58,A child sliding down a snowy hill on a sled,neutral_motion,602254731
+59,A construction worker hauling lumber across a site,neutral_motion,602345902
+60,A bartender shaking a metal cocktail mixer,neutral_motion,602436128
+61,A figure running on a sandy desert at sunset,neutral_motion,602525487
+62,A father pushing a swing in a backyard,neutral_motion,602614380
+63,A woman walking briskly through a crosswalk in rain,neutral_motion,602705926
+64,A rock climber bouldering on a tall granite face,neutral_motion,602796154
+65,A child kicking a soccer ball across a school yard,neutral_motion,602887309
+66,A traveler walking down a cobblestone alley with a suitcase,neutral_motion,602978541
+67,A boxer skipping rope in an empty gym,neutral_motion,603069173
+68,A glassblower spinning a glowing molten glass,neutral_motion,603158402
+69,A photographer running to catch a sunset,neutral_motion,603249567
+70,A figure dancing tango on a dimly lit terrace,neutral_motion,603340198
+71,A jogger bounding up sand dunes at sunrise,neutral_motion,603431725
+72,A man rowing a small boat at dawn on a misty lake,neutral_motion,603520493
+73,A figure walking on a path lined with autumn maples,neutral_motion,603611827
+74,A child chasing soap bubbles in a backyard,neutral_motion,603703450
+75,A red sports car speeding through a desert highway,neutral_motion,1700185496
+76,A train rushing through a forest in autumn,neutral_motion,1700274038
+77,A motorcycle leaning into a sharp mountain curve,neutral_motion,1700363591
+78,A sailboat tilting through choppy ocean waves,neutral_motion,1700454276
+79,A yellow taxi weaving through busy city traffic,neutral_motion,1700543918
+80,A vintage steam train chugging across a stone bridge,neutral_motion,1700634750
+81,A racing car drifting around a hairpin corner,neutral_motion,1700725483
+82,A small fishing boat cutting through morning fog,neutral_motion,1700816194
+83,A subway train arriving at a brightly lit platform,neutral_motion,1700907528
+84,A canoe gliding down a calm forest river,neutral_motion,1700998341
+85,A jet ski leaping over a wave at full speed,neutral_motion,1701089657
+86,A helicopter hovering above a mountain rescue scene,neutral_motion,1701180294
+87,A pickup truck driving along a dusty country road,neutral_motion,1701271503
+88,A ferry crossing a wide harbor at dusk,neutral_motion,1701362175
+89,A bus pulling away from a rainy bus stop,neutral_motion,1701453826
+90,A go-kart racing around a tight curve,neutral_motion,1701542980
+91,A submarine emerging from deep water,neutral_motion,1701631647
+92,A passenger jet taking off into morning sky,neutral_motion,1701720495
+93,A camper van rolling through pine forest at sunset,neutral_motion,1701811378
+94,A tractor plowing a long field of soil,neutral_motion,1701902054
+95,A delivery truck driving through a snowy street,neutral_motion,1701993716
+96,A speedboat racing across a glassy lake,neutral_motion,1702084529
+97,A tram crossing a wide stone plaza,neutral_motion,1702175362
+98,An ambulance speeding through a tunnel,neutral_motion,1702266804
+99,A monorail passing above a futuristic city,neutral_motion,1702357198
+100,A wooden rowboat drifting on a still pond,neutral_motion,1702448573
+101,A racing yacht heeling over in strong wind,neutral_motion,1702539640
+102,A military jeep crossing a muddy field,neutral_motion,1702630257
+103,A garbage truck stopping at a row of houses,neutral_motion,1702721485
+104,A vintage convertible cruising along a coastal cliff,neutral_motion,1702812930
+105,Waves crashing against a rocky cliff at sunset,neutral_motion,800186024
+106,A waterfall cascading down a moss-covered cliff,neutral_motion,800274685
+107,Tall pines swaying in a strong breeze,neutral_motion,800363921
+108,Autumn leaves spinning in a gust of wind,neutral_motion,800455048
+109,A river rushing through a narrow canyon,neutral_motion,800546273
+110,Ocean tides receding from a wide sandy beach,neutral_motion,800637518
+111,Steam rising from a hot spring in winter,neutral_motion,800728196
+112,A geyser erupting against a clear sky,neutral_motion,800819470
+113,Lava flowing slowly down a volcano slope,neutral_motion,800908617
+114,A field of wheat rippling like waves under wind,neutral_motion,800997285
+115,Rain falling on the surface of a calm lake,neutral_motion,801088541
+116,Snowflakes drifting down past a streetlamp,neutral_motion,801179830
+117,Mist rolling over a mountain ridge at dawn,neutral_motion,801268479
+118,Lightning flashing across a stormy sky,neutral_motion,801359162
+119,A meadow blooming under a passing thunderstorm,neutral_motion,801440587
+120,A field of bluebells swaying in spring sunshine,neutral_motion,801531094
+121,A glacier slowly calving into the sea,neutral_motion,801622738
+122,A sandstorm rolling across a desert plain,neutral_motion,801713405
+123,Clouds racing across a wide prairie sky,neutral_motion,801804962
+124,A bonfire crackling on a beach at midnight,neutral_motion,801895174
+125,Fireflies blinking around a garden pond,neutral_motion,801986530
+126,A frozen waterfall in a deep canyon,neutral_motion,802075819
+127,A river spilling over the edge of a cliff,neutral_motion,802164273
+128,Bamboo leaves rustling in a breeze,neutral_motion,802253948
+129,A tornado churning across an empty plain,neutral_motion,802344705
+130,A surfer carving a turn on a tall wave,neutral_motion,1300187035
+131,A snowboarder racing down a steep slope,neutral_motion,1300276491
+132,A skier carving fresh tracks through powder,neutral_motion,1300365274
+133,A figure skater performing a triple axel,neutral_motion,1300456810
+134,A baseball pitcher winding up for a fastball,neutral_motion,1300548173
+135,A basketball player making a slam dunk,neutral_motion,1300639490
+136,A footballer kicking a curving free kick,neutral_motion,1300720857
+137,A swimmer diving off the starting block,neutral_motion,1300811432
+138,A tennis player smashing a serve,neutral_motion,1300902596
+139,A golfer driving a ball off the tee,neutral_motion,1300993817
+140,A weightlifter snatching a heavy barbell,neutral_motion,1301084259
+141,A martial artist performing a flying kick,neutral_motion,1301175630
+142,A hurdler clearing a track barrier mid-stride,neutral_motion,1301266948
+143,A pole vaulter clearing a high bar,neutral_motion,1301357265
+144,A volleyball player spiking a ball at the net,neutral_motion,1301448527
+145,A boxer throwing a hook combination,neutral_motion,1301539840
+146,A fencer lunging at an opponent,neutral_motion,1301630175
+147,A long jumper soaring through the air,neutral_motion,1301721493
+148,A figure skating pair lifting in unison,neutral_motion,1301812806
+149,A bull rider holding on as the bull bucks,neutral_motion,1301903274
+150,A child playing piano with concentrated focus,neutral_motion,400188192
+151,A magician fanning a deck of cards,neutral_motion,400277635
+152,A waiter carrying multiple plates across a busy restaurant,neutral_motion,400366894
+153,A teacher writing on a blackboard with chalk dust,neutral_motion,400458175
+154,A barber trimming hair with electric clippers,neutral_motion,400549403
+155,A jeweler polishing a small ring under bright lamp,neutral_motion,400640752
+156,A scientist pipetting clear liquid into glass tubes,neutral_motion,400731869
+157,A child lighting birthday candles in a dim room,neutral_motion,400822584
+158,A painter brushing strokes onto a tall canvas,neutral_motion,400913716
+159,A pianist hands flying across keys,neutral_motion,401004193
+160,A typist hammering keys on an old typewriter,neutral_motion,401095478
+161,A figure ironing a shirt under window light,neutral_motion,401186039
+162,A child building a tower of wooden blocks,neutral_motion,401277318
+163,A hairdresser styling hair with a round brush,neutral_motion,401368542
+164,A woman knitting a long scarf by lamplight,neutral_motion,401459706
+165,A barista pouring foam patterns into coffee,neutral_motion,401540873
+166,A child cutting paper snowflakes with scissors,neutral_motion,401631490
+167,A father wrapping a present in colorful paper,neutral_motion,401722058
+168,A figure folding origami at a wooden table,neutral_motion,401813275
+169,A potter centering clay on a moving wheel,neutral_motion,401904816
+170,A flag flapping wildly atop a tall pole,neutral_motion,1900189053
+171,A windmill turning steadily in a green field,neutral_motion,1900278496
+172,A pinwheel spinning in a child hand,neutral_motion,1900367185
+173,A pendulum swinging in a tall grandfather clock,neutral_motion,1900458920
+174,A ferris wheel turning slowly above a carnival,neutral_motion,1900549637
+175,A printing press rolling out fresh newspapers,neutral_motion,1900640254
+176,A factory robot welding sparks on a metal frame,neutral_motion,1900731807
+177,A spinning top wobbling on a polished table,neutral_motion,1900822495
+178,A weaving loom shuttling threads back and forth,neutral_motion,1900913028
+179,A neon sign flickering on a quiet street,neutral_motion,1901004571
+180,A drill bit boring into a wooden plank,neutral_motion,1901095893
+181,A blender pureeing fruit at high speed,neutral_motion,1901186250
+182,A clock second hand sweeping around the dial,neutral_motion,1901277517
+183,A lawn mower cutting tall grass in zigzag rows,neutral_motion,1901368094
+184,An escalator carrying people up to a station,neutral_motion,1901459735
+185,A hot air balloon rising at dawn over a valley,neutral_motion,200190184
+186,A drone weaving between skyscrapers,neutral_motion,200279527
+187,A swarm of bees flying around a beehive,neutral_motion,200368296
+188,A jellyfish bloom drifting through deep water,neutral_motion,200459013
+189,A ship cutting through dense morning fog,neutral_motion,200548640
+190,A diver descending into a colorful coral reef,neutral_motion,200639175
+191,A boat carving a wake across a calm bay,neutral_motion,200720806
+192,A rocket launching into a starry night,neutral_motion,200811397
+193,A submarine surfacing through arctic ice,neutral_motion,200902548
+194,A dolphin pod racing alongside a sailboat,neutral_motion,200993286
+195,A penguin colony marching across white ice,neutral_motion,201084059
+196,A school of tuna swirling beneath a fishing boat,neutral_motion,201175427
+197,A seagull snatching a piece of bread mid-flight,neutral_motion,201266830
+198,A windsurfer skimming across a sunlit lake,neutral_motion,201357498
+199,A frog leaping through reeds at the edge of a pond,neutral_motion,201448063

@@ -1,0 +1,1097 @@
+case_number,prompt,class,evaluation_seed
+0,a golden retriever running through a green meadow,neutral,1112095204
+1,a border collie catching a flying disc in a park,neutral,1941554054
+2,a corgi waddling along a wooden fence,neutral,422255183
+3,a labrador splashing in a shallow river,neutral,1374215627
+4,a poodle sitting on a patterned rug,neutral,910929748
+5,a dalmatian resting on a garage floor,neutral,1159376314
+6,a beagle sniffing a trail of fallen leaves,neutral,768154425
+7,a husky sled team crossing a snowy ridge,neutral,830468006
+8,a shiba inu trotting on a stone path,neutral,1099332559
+9,a dachshund peeking out of a wicker basket,neutral,1936719687
+10,a sheepdog guiding sheep across a hillside,neutral,1152473779
+11,a puppy chewing on a knotted rope toy,neutral,1227016521
+12,a spaniel shaking water from its fur,neutral,1938583435
+13,a chihuahua curled up on a velvet cushion,neutral,1200603165
+14,a pug yawning on a sunlit couch,neutral,637712049
+15,a bernese mountain dog pulling a small cart,neutral,646729272
+16,a boxer balancing a tennis ball on its nose,neutral,880503870
+17,a samoyed rolling in fresh snow,neutral,384692834
+18,a cocker spaniel carrying a stick in its mouth,neutral,322375702
+19,a mixed-breed dog drinking from a garden hose,neutral,583354056
+20,a tabby cat napping on a sunlit windowsill,neutral,785371541
+21,a black cat stalking through tall grass,neutral,1084908207
+22,a kitten batting at a ball of yarn,neutral,705415249
+23,a siamese cat perched on a bookshelf,neutral,1966679156
+24,a ginger cat stretching on a patterned carpet,neutral,936999163
+25,a white cat grooming its paw in a garden,neutral,1178061150
+26,a maine coon sitting by a fireplace,neutral,37823082
+27,a tortoiseshell cat hiding under a bed,neutral,102451103
+28,a cat playing with a cardboard box,neutral,140850368
+29,a long-haired cat watching raindrops on a window,neutral,247572522
+30,a kitten drinking milk from a saucer,neutral,312111235
+31,a calico cat chasing a feather toy,neutral,1587479706
+32,a cat walking along a stone wall at dusk,neutral,2114028184
+33,a cat curled inside a wooden crate,neutral,158870616
+34,a cat pouncing after a moth in a backyard,neutral,2021268512
+35,an owl perched on a tree branch at night,neutral,1950552435
+36,a flock of birds flying at sunset,neutral,1131428578
+37,a parrot resting on a wooden perch,neutral,540303492
+38,a canary singing inside a brass cage,neutral,663712937
+39,a duck gliding across a quiet pond,neutral,1685548641
+40,a pigeon pecking at seeds on a plaza,neutral,19769301
+41,a swan drifting beneath a willow tree,neutral,648015172
+42,a robin picking a worm from a lawn,neutral,2127309358
+43,a penguin waddling on an icy shore,neutral,768328334
+44,a heron standing still at the water's edge,neutral,663796157
+45,a peacock spreading its tail in a courtyard,neutral,934055832
+46,a hummingbird sipping from a red feeder,neutral,1908400852
+47,a seagull hovering above a fishing dock,neutral,874344631
+48,a rooster crowing at daybreak on a fence,neutral,210967067
+49,a woodpecker tapping on a pine trunk,neutral,1212557594
+50,a sparrow bathing in a shallow puddle,neutral,1368256865
+51,a crow examining a shiny coin on a path,neutral,1292858885
+52,a kingfisher diving toward a clear stream,neutral,1984484326
+53,a flamingo standing in a pink-lit lagoon,neutral,1442330317
+54,a chickadee clinging to a winter branch,neutral,829178448
+55,an eagle soaring above a canyon,neutral,306043959
+56,a toucan resting on a jungle branch,neutral,1583459173
+57,a nightingale singing inside a rose garden,neutral,978037552
+58,a magpie gathering twigs for a nest,neutral,2076254728
+59,a blue jay flitting among oak leaves,neutral,1368700166
+60,a fox trotting through a misty meadow,neutral,60696483
+61,a deer grazing at the edge of a forest,neutral,300317786
+62,a rabbit nibbling clover in the garden,neutral,2003745146
+63,a squirrel eating a nut on a branch,neutral,206837234
+64,a hedgehog sniffing a patch of moss,neutral,820036123
+65,a raccoon peeking out of a hollow log,neutral,1022862762
+66,a chipmunk holding a sunflower seed,neutral,251159712
+67,a bear catching a salmon in a shallow river,neutral,1705456716
+68,a panda chewing bamboo in a bamboo grove,neutral,27000648
+69,a koala hugging a eucalyptus trunk,neutral,454160350
+70,a kangaroo hopping across a red outback,neutral,1120083588
+71,a lion cub yawning in the afternoon sun,neutral,91569491
+72,a zebra drinking at a watering hole,neutral,151241637
+73,a giraffe reaching for leaves on a tall tree,neutral,1970826979
+74,an elephant spraying water over its back,neutral,116801237
+75,a monkey swinging from a jungle vine,neutral,1727942042
+76,a moose wading across a cold lake,neutral,1262475227
+77,a wolf pup tumbling with its siblings,neutral,1421846579
+78,a beaver nibbling on a fallen branch,neutral,1910065795
+79,a bat resting upside down in a cave,neutral,1974265458
+80,a camel walking across desert dunes,neutral,1209122849
+81,a mouse peeking out of a woodpile,neutral,2058756155
+82,an otter floating on its back in a stream,neutral,1605779477
+83,a mountain goat standing on a rocky ledge,neutral,824428681
+84,a sloth hanging lazily from a branch,neutral,2077415721
+85,a bison grazing on a wide prairie,neutral,1492688382
+86,a reindeer standing in a snowy clearing,neutral,1598127771
+87,a possum climbing along a backyard fence,neutral,1676218904
+88,a weasel darting through a stone wall,neutral,216858466
+89,a lemur leaping between tree branches,neutral,971719670
+90,a starfish on a sandy beach,neutral,293236112
+91,a school of fish swimming through a coral reef,neutral,1053903060
+92,a dolphin leaping above a calm sea,neutral,252930318
+93,a sea turtle gliding through clear water,neutral,439810689
+94,a seahorse drifting among seagrass,neutral,1589085453
+95,a crab scuttling across wet sand,neutral,1768528664
+96,a lobster resting on a rocky seabed,neutral,1644193077
+97,a jellyfish pulsing in deep blue water,neutral,1019543249
+98,a whale tail breaking the ocean surface,neutral,1143927603
+99,an octopus slipping into a crevice,neutral,1835357782
+100,a clownfish darting through an anemone,neutral,1624241826
+101,a goldfish circling a glass bowl,neutral,1931698630
+102,a trout jumping out of a mountain stream,neutral,933866369
+103,a squid drifting in silvery light,neutral,1392218324
+104,a shrimp hidden among coral branches,neutral,1923107466
+105,a seal resting on a rocky outcrop,neutral,625648022
+106,an angelfish hovering near a reef,neutral,539433779
+107,a manta ray gliding over sand,neutral,1543643673
+108,a sea urchin clinging to a tide pool rock,neutral,454250259
+109,a coral garden glowing in sunlight,neutral,1302485952
+110,a catfish resting on a riverbed,neutral,329387243
+111,a sea otter cracking a shell on its belly,neutral,916482604
+112,a koi pond with lily pads,neutral,1788234603
+113,a salmon swimming upstream over stones,neutral,615870766
+114,a pufferfish expanding in clear water,neutral,2142364723
+115,a ladybug on a green leaf,neutral,685219350
+116,a bumblebee hovering over a flower,neutral,927932916
+117,a butterfly resting on a lavender stem,neutral,1358969235
+118,a dragonfly skimming across a pond,neutral,750877303
+119,a caterpillar inching along a branch,neutral,32240551
+120,a snail leaving a glossy trail on a leaf,neutral,1733283702
+121,a cricket hidden among tall grass,neutral,978579611
+122,an ant carrying a crumb along a path,neutral,1368990086
+123,a firefly glowing in summer dusk,neutral,430438004
+124,a spider weaving a web between fence posts,neutral,1402569960
+125,a moth circling a paper lantern,neutral,585523786
+126,a grasshopper perched on a wheat stalk,neutral,1469532583
+127,a praying mantis camouflaged on a leaf,neutral,1641065481
+128,a beetle climbing a pebble,neutral,1511602655
+129,a centipede winding through fallen leaves,neutral,1322178928
+130,a red apple on a wooden table,neutral,62454801
+131,a bunch of yellow bananas hanging in a kitchen,neutral,1635788758
+132,a ripe mango sliced on a cutting board,neutral,1360439552
+133,a cluster of purple grapes on a vine,neutral,129702207
+134,a single orange on a ceramic dish,neutral,534720792
+135,a pineapple resting in a straw basket,neutral,1768972314
+136,a strawberry dusted with sugar,neutral,504272468
+137,a ripe peach on a linen cloth,neutral,1954334040
+138,a bowl of cherries by a window,neutral,1139757416
+139,a watermelon cut in half on a picnic table,neutral,386774378
+140,a lemon wedge on a glass rim,neutral,2119832255
+141,a pear in a blue porcelain bowl,neutral,433063302
+142,a plum balanced on a wooden spoon,neutral,138212107
+143,a pomegranate split open on a plate,neutral,1306875792
+144,a papaya sliced beside a silver spoon,neutral,1950486749
+145,a fig broken in half on parchment,neutral,1569811893
+146,a kiwi sliced on a pale dish,neutral,509720069
+147,a bowl of blueberries on an oak table,neutral,1129811840
+148,a raspberry on the tip of a fingerless glove,neutral,945093159
+149,a coconut cracked open on a tropical beach,neutral,391839306
+150,a dragon fruit sliced to show its seeds,neutral,1699517590
+151,a bunch of bananas on a market stall,neutral,468051940
+152,an avocado halved on a cutting board,neutral,1565470485
+153,a date on a copper plate,neutral,705654836
+154,a passion fruit sliced beside a small knife,neutral,326666953
+155,a mulberry branch heavy with fruit,neutral,438586785
+156,a persimmon resting on a bamboo mat,neutral,1301431919
+157,a bowl of mixed berries on a checkered cloth,neutral,591414379
+158,a tangerine peeled on a marble counter,neutral,1969210261
+159,a guava sliced on a rustic board,neutral,689862295
+160,a basket of tomatoes at a farmers market,neutral,1237991023
+161,a head of lettuce on a wooden counter,neutral,26936924
+162,a bunch of carrots with green tops,neutral,1466818049
+163,a bowl of fresh peas in their pods,neutral,726058885
+164,a cucumber sliced on a bamboo board,neutral,1894885767
+165,a bell pepper split open to show seeds,neutral,1964653378
+166,a head of cauliflower on a stone slab,neutral,915777676
+167,a purple eggplant resting on a wicker tray,neutral,1560662334
+168,a cluster of garlic bulbs hanging in a pantry,neutral,1688457375
+169,a pumpkin on a porch at autumn,neutral,760204932
+170,a ripe zucchini beside a paring knife,neutral,1929636800
+171,a bunch of spring onions tied with twine,neutral,1654952248
+172,a bowl of green beans on a kitchen table,neutral,624555197
+173,a tray of roasted sweet potatoes,neutral,11418266
+174,a cabbage being sliced on a cutting board,neutral,1164900645
+175,a basket of mushrooms gathered from a forest,neutral,516158987
+176,a radish with its stem still attached,neutral,771974238
+177,a corn cob with husk pulled back,neutral,1166909862
+178,a ginger root on a porcelain dish,neutral,202425933
+179,a turnip beside a wooden brush,neutral,1824422695
+180,a leek laid on brown paper,neutral,310712756
+181,a bunch of asparagus tied with string,neutral,1288407916
+182,a ripe tomato on a vine in a greenhouse,neutral,69448999
+183,a bowl of diced potatoes on a counter,neutral,791116502
+184,a fennel bulb sliced on a marble board,neutral,437453018
+185,a loaf of fresh bread on a kitchen counter,neutral,1850787351
+186,a bowl of ramen with steam rising,neutral,2056947447
+187,a bowl of noodle soup with scallions,neutral,1534616869
+188,a bowl of rice on a bamboo mat,neutral,1953909097
+189,a plate of spaghetti with red sauce,neutral,1443951048
+190,a slice of pizza on a wooden board,neutral,905782192
+191,a bowl of oatmeal topped with berries,neutral,1182727068
+192,a stack of pancakes with syrup,neutral,1768047511
+193,a croissant on a linen napkin,neutral,1284821729
+194,a bowl of vegetable stew on a rustic table,neutral,864693177
+195,a plate of dumplings with a dipping sauce,neutral,1950513261
+196,a sushi roll on a black slate,neutral,1776964455
+197,a freshly baked apple pie cooling by a window,neutral,995008680
+198,a salad in a glass bowl,neutral,810035666
+199,a platter of cheeses and grapes,neutral,1090672525
+200,a bowl of granola with yogurt,neutral,1896425178
+201,a hamburger on a wooden plate,neutral,855104499
+202,a bowl of tomato soup with a slice of bread,neutral,851267904
+203,a plate of roasted vegetables,neutral,987287680
+204,a bowl of tiramisu dusted with cocoa,neutral,1560719677
+205,a slice of chocolate cake on a white plate,neutral,1029780666
+206,a bowl of miso soup with tofu cubes,neutral,182277228
+207,a tray of freshly baked cookies,neutral,823076425
+208,a sandwich cut into halves on a checkered napkin,neutral,690258426
+209,a plate of grilled corn on the cob,neutral,2128654873
+210,a bowl of chili topped with sour cream,neutral,1405883017
+211,a platter of fresh sashimi,neutral,75951845
+212,a baguette sliced beside a tub of butter,neutral,469241506
+213,a bowl of pasta salad with olives,neutral,1362859572
+214,a slice of cheesecake on a dessert plate,neutral,1739336643
+215,a loaf of banana bread cooling on a rack,neutral,276099593
+216,a pot of stew on a stovetop,neutral,1189190897
+217,a bowl of curry with rice on the side,neutral,375325723
+218,a plate of bruschetta on a rustic board,neutral,255533817
+219,a bowl of pho garnished with herbs,neutral,1435189568
+220,a muffin on a paper liner,neutral,1642896194
+221,a quiche sliced on a ceramic platter,neutral,1735809296
+222,a taco on a wooden tray,neutral,437304731
+223,a plate of gnocchi in cream sauce,neutral,455967260
+224,a freshly tossed green salad in a glass bowl,neutral,367106902
+225,a cup of steaming coffee by a window,neutral,1809247680
+226,a glass of orange juice on a patio table,neutral,738304721
+227,a mug of hot chocolate with marshmallows,neutral,1513918826
+228,a thermos of tea beside a notebook,neutral,1348428575
+229,a hot cup of green tea beside a bonsai,neutral,171159978
+230,a clay teapot surrounded by loose leaves,neutral,387287955
+231,a glass of lemonade on a summer porch,neutral,1823098266
+232,a bottle of sparkling water with a lemon slice,neutral,2143606638
+233,a pitcher of iced tea on a picnic table,neutral,779531744
+234,a cup of cappuccino with latte art,neutral,408787018
+235,a smoothie in a tall glass with a straw,neutral,335625495
+236,a cup of matcha beside a bamboo whisk,neutral,398886088
+237,a steaming bowl of hot cider,neutral,2084650401
+238,a glass of fresh carrot juice,neutral,576427708
+239,a mug of hot milk with honey,neutral,283577191
+240,a cup of chamomile tea on a saucer,neutral,1769533070
+241,a carafe of water with cucumber slices,neutral,624166949
+242,a tumbler of iced coffee on a wooden table,neutral,2116048765
+243,a mug of cocoa by a fireplace,neutral,1160382854
+244,a glass of grape juice beside a book,neutral,1955566928
+245,a chef chopping vegetables in a clean kitchen,neutral,126595590
+246,a bakery window displaying pastries,neutral,391618581
+247,a baker sprinkling flour on a pastry,neutral,357070443
+248,a row of jars with dried herbs on a shelf,neutral,1698664658
+249,a wooden spoon resting on a pot of soup,neutral,1391274471
+250,a kitchen counter dusted with flour,neutral,499846642
+251,a rolling pin on a marble surface,neutral,2063133863
+252,a kettle whistling on a gas stove,neutral,109983625
+253,a rack of fresh bread cooling by a window,neutral,191079098
+254,a mixing bowl with cake batter,neutral,1695031407
+255,a tray of bread dough rising near a window,neutral,986584759
+256,a pot of boiling pasta on a stove,neutral,1014794116
+257,a jar of preserves on a kitchen shelf,neutral,729533736
+258,a cutting board with sliced fruits,neutral,568629406
+259,a whisk beating eggs in a ceramic bowl,neutral,890960663
+260,a pan of sizzling mushrooms on a stovetop,neutral,925339450
+261,a chopping board with freshly grated ginger,neutral,1859505503
+262,a tea ceremony set arranged on a mat,neutral,2119192878
+263,a saucepan of simmering jam,neutral,915473608
+264,a cast-iron skillet on a warm stove,neutral,2102109572
+265,a kitchen window overflowing with herbs,neutral,1094990291
+266,a cheese wheel on a wooden platter,neutral,86541403
+267,a measuring cup beside a bowl of flour,neutral,614180427
+268,a stand mixer whirring in a home kitchen,neutral,1115173943
+269,a colander draining rinsed rice,neutral,405362301
+270,a spice rack next to a wooden counter,neutral,763575492
+271,a bowl of kneaded dough covered with a cloth,neutral,309115497
+272,a baker braiding a loaf of challah,neutral,1062477651
+273,a pastry chef piping cream onto a cake,neutral,588483291
+274,a pot of broth simmering on low heat,neutral,348299023
+275,a single sunflower in a clay pot,neutral,133476693
+276,a field of lavender under morning sun,neutral,1744240795
+277,a vase of tulips on a kitchen table,neutral,1134517987
+278,a rose bush climbing a stone wall,neutral,201763914
+279,a bouquet of daisies in a mason jar,neutral,978409377
+280,a sunflower field swaying in the breeze,neutral,877450478
+281,a lily pad covered pond at sunrise,neutral,810686245
+282,a peony blooming in a shaded garden,neutral,823539335
+283,a cherry blossom tree above a footpath,neutral,1782614023
+284,a trellis of morning glories in a courtyard,neutral,1504561029
+285,a bouquet of wildflowers on a desk,neutral,1077494229
+286,a row of hyacinths in a spring garden,neutral,1284679238
+287,a cluster of poppies swaying in a field,neutral,1598510766
+288,a vase of irises on a windowsill,neutral,1500899997
+289,a dahlia in full bloom in a flowerbed,neutral,1641038813
+290,a hollyhock towering in a cottage garden,neutral,575487694
+291,an orchid in a glass pot,neutral,458089560
+292,a carnation tucked into a ribbon,neutral,1757409021
+293,a bluebell woodland in springtime,neutral,894332052
+294,a sunflower with a bumblebee on its center,neutral,1260942114
+295,a yellow rose in a crystal vase,neutral,112291906
+296,a marigold flowering beside a vegetable patch,neutral,1317643280
+297,a bouquet of chrysanthemums on a porch,neutral,970128158
+298,a lotus flower rising from a pond,neutral,2142237354
+299,a violet blooming between cobblestones,neutral,1000402144
+300,a snow-covered pine forest at dusk,neutral,1707947743
+301,a row of olive trees along a dirt road,neutral,1161006859
+302,a weeping willow beside a slow river,neutral,1181546066
+303,a grove of bamboo in soft light,neutral,508175870
+304,a maple tree turning red in autumn,neutral,1458002943
+305,a cherry tree blossoming by a school gate,neutral,74718242
+306,a birch forest in early morning fog,neutral,1709251144
+307,a cypress path in a formal garden,neutral,656027762
+308,a baobab tree on a wide savanna,neutral,280817780
+309,a palm tree by a turquoise bay,neutral,739502522
+310,a twisted oak in a misty meadow,neutral,742051438
+311,a cactus in a terracotta pot,neutral,1792362652
+312,an old bicycle wheel covered in vines,neutral,524437056
+313,a small wooden birdhouse among oak leaves,neutral,294849070
+314,a row of hedges clipped into neat shapes,neutral,1146472791
+315,a lemon tree heavy with fruit,neutral,296434004
+316,a potted fern on a bathroom shelf,neutral,262967174
+317,a monstera plant in a ceramic planter,neutral,1676308003
+318,a climbing ivy on a garden wall,neutral,1171607484
+319,a bonsai tree on a low wooden table,neutral,1118242153
+320,a row of apple trees in a small orchard,neutral,996757431
+321,a fig tree with ripe fruit by a patio,neutral,1005884376
+322,a rose arbor covered with climbing roses,neutral,632638208
+323,an avocado tree in a backyard,neutral,727523986
+324,a cactus garden in a desert landscape,neutral,373964747
+325,a mountain stream flowing over smooth rocks,neutral,1137755503
+326,a lighthouse standing on a rocky coast,neutral,1853125692
+327,a hot air balloon drifting over fields,neutral,1821637998
+328,a waterfall cascading over mossy cliffs,neutral,1784758662
+329,a pond with lily pads and koi fish,neutral,1189571259
+330,a sailboat on a calm blue lake,neutral,1945506490
+331,a cobbled alleyway at twilight,neutral,316333638
+332,a stone staircase winding up a hillside,neutral,1139113507
+333,a wooden bridge over a creek,neutral,1782240734
+334,a lantern glowing on a foggy street,neutral,85556927
+335,a row of colorful fishing boats at harbor,neutral,523796270
+336,a coastal cliff at golden hour,neutral,1139969869
+337,a rolling meadow speckled with wildflowers,neutral,904787470
+338,a desert dune at sunrise,neutral,1980691609
+339,a river winding through an autumn forest,neutral,142926578
+340,a rice terrace climbing a green hillside,neutral,1076873133
+341,a salt flat reflecting a pink sky,neutral,1651675447
+342,a glacial lake with clear blue water,neutral,445890566
+343,a valley of pine trees under morning mist,neutral,1579029537
+344,a snowy mountain peak at dawn,neutral,786126488
+345,a tropical beach with swaying palms,neutral,1305133834
+346,a rocky shore with crashing waves,neutral,1458364147
+347,a misty fjord surrounded by cliffs,neutral,1401008642
+348,a winding mountain road through pine forests,neutral,1709170512
+349,a prairie stretching to the horizon,neutral,256162180
+350,a canyon carved by a quiet river,neutral,369647779
+351,a volcanic island with green slopes,neutral,309859800
+352,a river delta filled with marsh birds,neutral,1570125880
+353,a pine-lined lake in early morning,neutral,1479443084
+354,a marshland with reeds at sunset,neutral,288061320
+355,a field of tall wheat bending in the wind,neutral,1981331847
+356,a hillside covered in blooming heather,neutral,1847628807
+357,a quiet cove with a wooden jetty,neutral,84867887
+358,a winter forest after fresh snowfall,neutral,1298115354
+359,a coral atoll surrounded by turquoise water,neutral,1344140354
+360,a kite flying against a cloudy sky,neutral,1155787931
+361,a colorful umbrella on a rainy sidewalk,neutral,104296699
+362,raindrops sliding down a window pane,neutral,1268670637
+363,a rainbow arching across a green valley,neutral,873372892
+364,a fresh layer of snow on a garden bench,neutral,935938413
+365,a foggy morning over a quiet river,neutral,763026270
+366,a sunset behind a row of windmills,neutral,1235127638
+367,a moon rising over a distant mountain,neutral,72425605
+368,a telescope pointing at a starry sky,neutral,1262374677
+369,the milky way stretching across a dark sky,neutral,345111752
+370,a lightning storm above a distant plain,neutral,371480310
+371,a thick cloud rolling over hills,neutral,1147402937
+372,a clear winter sky full of stars,neutral,778901014
+373,a cold breeze scattering autumn leaves,neutral,498961884
+374,a sunbeam filtering through forest canopy,neutral,1388523328
+375,a low sun casting long shadows on grass,neutral,935273315
+376,a pink dusk above a quiet lake,neutral,1928387935
+377,a quiet snowfall settling on a city rooftop,neutral,1183707719
+378,a summer breeze rippling across a wheat field,neutral,1713877923
+379,a hailstorm tapping on a greenhouse roof,neutral,996938951
+380,a crescent moon above a desert horizon,neutral,1560782214
+381,a dew-covered spider web in morning light,neutral,500690158
+382,frost forming on a bedroom window,neutral,1014237277
+383,a meteor shower over a mountain silhouette,neutral,105033921
+384,golden sunlight spilling through clouds,neutral,30631257
+385,a busy marketplace in the afternoon light,neutral,1088957839
+386,a bookstore with shelves stretching to the ceiling,neutral,959825403
+387,a flower stall on a cobblestone corner,neutral,1260397452
+388,a fruit stand at dawn on a narrow street,neutral,1439560707
+389,a coffee shop with steaming cups and soft jazz,neutral,947037443
+390,an artisan's shop window with pottery,neutral,952091551
+391,a shoemaker polishing boots at a worktable,neutral,833228439
+392,a candle shop with jars lining the walls,neutral,1626775473
+393,a stationery store with stacks of notebooks,neutral,1832817894
+394,a fabric store with rolls of colorful cloth,neutral,112320601
+395,a tea shop with canisters on dark wood shelves,neutral,666393889
+396,a jeweler's shop window with silver rings,neutral,1819858182
+397,a toy store decorated for the holidays,neutral,439410576
+398,a cheese shop with wheels on marble counters,neutral,843892974
+399,a spice shop with sacks of colorful powders,neutral,428340436
+400,a ceramics store with stacks of painted bowls,neutral,24307648
+401,a vinyl record shop with old album covers,neutral,1077633253
+402,a second-hand bookshop with soft yellow light,neutral,1476550482
+403,a gelateria with rows of colorful scoops,neutral,643028567
+404,a coffee roaster grinding beans at a counter,neutral,1185526373
+405,a hat shop with felt hats on wooden stands,neutral,893789638
+406,a farmer's market stand selling honey,neutral,689171873
+407,a fishmonger's stand at a pier market,neutral,288234685
+408,a butcher's shop window with sausages on hooks,neutral,60629180
+409,a chocolatier arranging truffles in a tray,neutral,878365737
+410,a tailor's window with elegant coats,neutral,2093250453
+411,a stationery window with pens and inkwells,neutral,1137234531
+412,a florist arranging a bouquet at a counter,neutral,451986400
+413,a bakery cart at an outdoor festival,neutral,431823585
+414,a fountain in a city plaza at noon,neutral,960660077
+415,a lantern-lit garden path at dusk,neutral,23955748
+416,a backyard swing on a wooden frame,neutral,2078761422
+417,a child blowing soap bubbles in a park,neutral,472563889
+418,a chessboard mid-game under warm light,neutral,826873812
+419,a park bench under a flowering tree,neutral,917757128
+420,a small fountain surrounded by roses,neutral,599344988
+421,a stone arch leading into a botanical garden,neutral,756038924
+422,a playground empty at sunset,neutral,968153511
+423,a quiet courtyard with cobblestones,neutral,1300952524
+424,a plaza with street musicians at evening,neutral,599945613
+425,a carousel in a twilight park,neutral,599007009
+426,a bike rack beside a small café,neutral,1092982212
+427,a garden sculpture surrounded by hedges,neutral,631223812
+428,a park pond with paper boats floating,neutral,1576917088
+429,a stone bridge arching over a canal,neutral,606315350
+430,a promenade lined with lanterns,neutral,1246789487
+431,a market square with umbrellas and tables,neutral,1005637687
+432,a grassy hill dotted with picnic blankets,neutral,2063813755
+433,a walking trail winding through a city park,neutral,232934574
+434,a barn at the edge of a wheat field,neutral,1252271016
+435,a small lighthouse keeper's cottage,neutral,1135012293
+436,a library ladder reaching tall shelves,neutral,911307174
+437,a bread oven in a rustic bakery,neutral,1958197938
+438,a stone cottage with ivy on the walls,neutral,461027064
+439,a rustic cabin beside a pine forest,neutral,1721160887
+440,a thatched-roof cottage in a green meadow,neutral,1270378474
+441,a whitewashed village on a seaside cliff,neutral,906455127
+442,a windmill on a rolling hillside,neutral,466137821
+443,a wooden barn with red doors,neutral,97600719
+444,a stone farmhouse at dusk,neutral,532617032
+445,an old schoolhouse at the edge of a field,neutral,680200598
+446,a Victorian home with a wraparound porch,neutral,579617816
+447,a bamboo hut on stilts above water,neutral,2095456802
+448,a timber-framed house in an old town,neutral,532845191
+449,a medieval castle on a hilltop,neutral,1921506926
+450,a small chapel with stained glass,neutral,1558891723
+451,an adobe house in a desert village,neutral,704016539
+452,a cathedral interior with arched ceilings,neutral,583798836
+453,a greenhouse filled with tropical plants,neutral,1378520966
+454,a covered bridge over a narrow river,neutral,1919350865
+455,a narrow alley with flower-filled balconies,neutral,1020301368
+456,a tea house overlooking a koi pond,neutral,967939373
+457,a rice mill with stone wheels,neutral,395630027
+458,an old train station with wrought iron arches,neutral,716583238
+459,a waterfront warehouse converted to studios,neutral,126696198
+460,an amphitheater carved into a hillside,neutral,914520695
+461,a pagoda reflected in a still pond,neutral,1453559477
+462,a yurt in a grassy steppe,neutral,2119943457
+463,a stave church in a snowy forest,neutral,327189772
+464,a wooden rocking chair on a porch,neutral,2079928878
+465,a piano in an empty concert hall,neutral,641835108
+466,a guitar case open on a park bench,neutral,2036771786
+467,a stack of folded quilts on a bed,neutral,1277933371
+468,a vintage typewriter on a wooden desk,neutral,915674621
+469,a cello leaning against a music stand,neutral,1673744878
+470,a violin resting on a velvet cushion,neutral,1362810686
+471,a library reading room with green lampshades,neutral,1982495020
+472,a cozy living room with a knitted throw,neutral,394140000
+473,a reading nook under a bay window,neutral,1274719360
+474,a child's bedroom with a starry ceiling,neutral,899753700
+475,a home office with a tidy desk,neutral,1800372062
+476,a studio apartment with large windows,neutral,505451618
+477,an artist's studio filled with canvases,neutral,237445026
+478,a quiet bedroom with a sheer curtain,neutral,1228571839
+479,a kitchen with hanging copper pots,neutral,1462373771
+480,a dining room set for a family meal,neutral,2021431047
+481,a wooden sauna with benches and candles,neutral,903858901
+482,a pottery studio with half-finished vases,neutral,957505337
+483,a sunroom with cane chairs,neutral,596556988
+484,a music room with a grand piano,neutral,1496032522
+485,a sewing corner with a basket of yarn,neutral,788181930
+486,a child's playroom with a train set,neutral,1626729350
+487,a pantry with jars neatly labeled,neutral,333388887
+488,an attic with a skylight and old trunks,neutral,832268659
+489,a tea room with tatami mats,neutral,901725732
+490,a study with framed maps on the walls,neutral,265932590
+491,an entrance hall with a coat rack,neutral,1369385960
+492,a den with bookshelves lining the walls,neutral,533753180
+493,a bathroom with a clawfoot tub,neutral,233107760
+494,a shelf of jars filled with dried herbs,neutral,2007332755
+495,a stack of old books on a library desk,neutral,1033395396
+496,a chess set carved from light wood,neutral,806725127
+497,a paper map spread on a car hood,neutral,1179127449
+498,a shopping bag full of vegetables,neutral,1535523339
+499,a vintage camera on a stack of magazines,neutral,1982951648
+500,a small wooden sailboat in a pond,neutral,2104095579
+501,a grandfather clock in a quiet hallway,neutral,609745138
+502,a wicker basket filled with yarn balls,neutral,1320280313
+503,a pair of slippers by the door,neutral,831985486
+504,a kettle whistling on a cast-iron stove,neutral,1164431197
+505,a folded newspaper on a breakfast table,neutral,1525231608
+506,a magnifying glass on an antique map,neutral,318862111
+507,a porcelain teapot on a lace cloth,neutral,1007192604
+508,a set of nesting dolls on a shelf,neutral,2003061925
+509,a vintage record player with a spinning vinyl,neutral,2068275466
+510,a brass lamp on a writing desk,neutral,334870132
+511,a kerosene lantern on a camping table,neutral,885222403
+512,a ceramic jug of fresh milk on a sill,neutral,455893401
+513,a violinist practicing in an empty room,neutral,677067784
+514,a harp in a rehearsal room,neutral,133977159
+515,a saxophone on a velvet chair,neutral,182606141
+516,a flute resting on a sheet of music,neutral,576245725
+517,a drum set in a small studio,neutral,437790349
+518,an accordion propped against a wooden bench,neutral,402428964
+519,a banjo hanging on a barn wall,neutral,1695601214
+520,a lute on an embroidered cushion,neutral,2028535163
+521,an oboe in an open case,neutral,243458387
+522,a marimba on a wooden stage,neutral,287185526
+523,a ukulele by an open window,neutral,48251267
+524,a tambourine on a folk music poster,neutral,1458731610
+525,a guitar amplifier glowing in a practice room,neutral,574044869
+526,a grand piano beneath a chandelier,neutral,206625343
+527,a trumpet on a red music stand,neutral,166879382
+528,a harmonica on a train ticket,neutral,1873916495
+529,a dulcimer on a quilt,neutral,869319453
+530,a sitar beside a rug,neutral,575544949
+531,a pair of maracas on a festival stage,neutral,318417185
+532,a mandolin on a checkered cloth,neutral,880607824
+533,a kettle drum in an orchestra pit,neutral,523756814
+534,a xylophone in a music classroom,neutral,1974883164
+535,a bagpipe resting on a tartan cloth,neutral,1297575477
+536,a recorder on a student's desk,neutral,1399954845
+537,an open book of poems beside a tea cup,neutral,817483260
+538,a bookmark tucked inside a leather-bound novel,neutral,735075970
+539,a reading lamp shining on a worn dictionary,neutral,2144980172
+540,a row of encyclopedias on a mahogany shelf,neutral,192707308
+541,an atlas open to a mountain region,neutral,153844122
+542,a notebook filled with handwritten poems,neutral,409624030
+543,a magnifying glass over a foreign-language text,neutral,229985440
+544,an illustrated children's book on a rug,neutral,1961839843
+545,a library cart filled with returned books,neutral,425651448
+546,a journal with sketches of wildflowers,neutral,1075177764
+547,a sketchbook on a sunny café table,neutral,803512982
+548,a row of paperback novels on a shelf,neutral,284843736
+549,a first edition book on a glass stand,neutral,453661109
+550,a bookmark hanging from a travel guide,neutral,711889718
+551,a potter shaping clay on a wheel,neutral,1578501002
+552,a blacksmith hammering a horseshoe,neutral,191993113
+553,a watercolor palette on an easel,neutral,1709486440
+554,a child drawing with crayons on paper,neutral,1551062589
+555,a painter adding strokes to a landscape canvas,neutral,245445514
+556,a calligrapher writing on rice paper,neutral,232753001
+557,a paper airplane gliding across a classroom,neutral,287806298
+558,a weaver working at a wooden loom,neutral,207090136
+559,a sculptor chiseling a marble block,neutral,1380055667
+560,an embroidery hoop with a half-finished flower,neutral,1642787711
+561,a stained glass panel in progress,neutral,1979658570
+562,a quilter arranging colorful patches,neutral,1262832963
+563,a paper crane on a sunny windowsill,neutral,1530560533
+564,a woodworker sanding a carved bowl,neutral,902723093
+565,a knitter working on a blue scarf,neutral,1761459873
+566,a child painting a clay pot,neutral,296679238
+567,a glass blower shaping a vase,neutral,1981825891
+568,a mosaic artist arranging tiles,neutral,314831867
+569,a bookbinder stitching a leather cover,neutral,2047659877
+570,a silversmith polishing a small spoon,neutral,2080643087
+571,an illustrator inking a comic page,neutral,370707189
+572,a paper boat floating in a puddle,neutral,1932893382
+573,a watercolor of a lakeside cabin,neutral,261834937
+574,an origami kit with colorful paper,neutral,675879230
+575,a bead-maker stringing a necklace,neutral,1293207015
+576,a workshop with tools hanging on a wall,neutral,1181972948
+577,a cobbler's bench with polished boots,neutral,207830399
+578,a leather worker stitching a belt,neutral,1892802555
+579,a gardener watering tomato plants,neutral,715383153
+580,a beekeeper tending to wooden hives,neutral,369776980
+581,a farmer carrying a crate of tomatoes,neutral,736578674
+582,a carpenter measuring a plank of wood,neutral,1005882687
+583,a welder sparking in a metal shop,neutral,880893486
+584,a mechanic wiping a wrench on a rag,neutral,663474597
+585,a gardener pruning a rose bush,neutral,1514162129
+586,a farmer feeding chickens at dawn,neutral,2006208939
+587,a fisherman casting a line into a river,neutral,918794204
+588,a basket weaver at a country fair,neutral,1276822234
+589,a plumber adjusting a kitchen sink,neutral,476547377
+590,a painter refreshing a wooden fence,neutral,858123173
+591,a seamstress at a sewing machine,neutral,987404947
+592,a clockmaker repairing a brass gear,neutral,1443070953
+593,a shoemaker polishing boots at a bench,neutral,112220325
+594,a cheese maker forming a wheel,neutral,1472138889
+595,a vintner sampling wine from a barrel,neutral,1805456753
+596,a fountain pen writing on parchment,neutral,999459235
+597,a journal filled with handwritten poems,neutral,2065907986
+598,a wax seal pressed onto a letter,neutral,893455825
+599,a ruler and compass on a drafting table,neutral,1644834709
+600,a vintage typewriter on a writing desk,neutral,558609537
+601,a stack of envelopes tied with string,neutral,955651454
+602,an ink bottle beside a quill pen,neutral,954358968
+603,a calendar with handwritten notes,neutral,1458335724
+604,a chalkboard with a mathematics formula,neutral,1322111120
+605,a typewriter ribbon being replaced,neutral,1375506175
+606,an abacus on a classroom desk,neutral,1158630635
+607,a world globe on a teacher's desk,neutral,1261804030
+608,a tidy office with succulents on the shelf,neutral,386831925
+609,a filing cabinet with labeled drawers,neutral,563022548
+610,a cork board covered in postcards,neutral,1585715917
+611,a teddy bear on a child's pillow,neutral,1602232222
+612,a model train running on a round track,neutral,708924808
+613,a wooden puzzle partly assembled on the floor,neutral,1695113486
+614,a rocking horse in a playroom corner,neutral,856778295
+615,a marble run on a rainy afternoon,neutral,747260251
+616,a doll tea party on a rug,neutral,1941767729
+617,a kite lying on a summer lawn,neutral,124968326
+618,a stack of building blocks shaped like a castle,neutral,817860562
+619,a spinning top on a polished floor,neutral,1428451544
+620,a jigsaw puzzle on a dining table,neutral,7089283
+621,a skipping rope on a school playground,neutral,1763270576
+622,a paper boat in a garden puddle,neutral,1630772424
+623,a yo-yo spinning above a child's hand,neutral,313375493
+624,a hopscotch chalked on a sidewalk,neutral,920779210
+625,a wooden chess set on a garden table,neutral,787545597
+626,a cup-and-ball toy on a window ledge,neutral,927748572
+627,a kaleidoscope resting on a picture book,neutral,1864944516
+628,a wooden doll house with tiny furniture,neutral,1455394991
+629,a push-along wooden duck on a floor,neutral,1230951715
+630,a marble set on a checkered rug,neutral,1449364141
+631,a trellis of beans in a kitchen garden,neutral,1225323198
+632,a vegetable patch with tidy rows,neutral,260626327
+633,a greenhouse filled with seedlings,neutral,812159729
+634,a potted herb garden on a patio,neutral,1303696766
+635,a row of strawberry plants in raised beds,neutral,1856365140
+636,a stone bench beside a tulip bed,neutral,262258323
+637,a garden shed covered in climbing roses,neutral,1639498890
+638,a pond fringed with iris blossoms,neutral,2065667450
+639,a sundial at the center of a formal garden,neutral,162988866
+640,a bird bath surrounded by petunias,neutral,1908406380
+641,a wheelbarrow full of autumn leaves,neutral,724814296
+642,a compost bin at the back of a garden,neutral,1430991906
+643,a row of lettuces under netting,neutral,1284304602
+644,a garden hose coiled beside a spigot,neutral,1314676675
+645,a bed of tulips in a manicured lawn,neutral,1311164556
+646,a gardener planting bulbs in the fall,neutral,1719844142
+647,a butterfly garden with hanging feeders,neutral,38024574
+648,a lavender hedge along a stone path,neutral,327693232
+649,a cook stirring a pot of simmering soup,neutral,361287209
+650,a baker rolling out dough on a counter,neutral,98838641
+651,a cheese maker stirring curds in a vat,neutral,1383826679
+652,a wine maker crushing grapes,neutral,1490866838
+653,a child decorating cookies with icing,neutral,1979188988
+654,a barista pouring latte art into a mug,neutral,1974490844
+655,a chef plating a colorful salad,neutral,1746133901
+656,a family kneading dough together,neutral,1587781555
+657,a pizza maker tossing dough in the air,neutral,1732432919
+658,a candy maker pulling taffy,neutral,1899574834
+659,a farmer churning butter in a wooden churn,neutral,1697225952
+660,a grandmother teaching a child to roll dumplings,neutral,1567314152
+661,a cook grating cheese over pasta,neutral,161806552
+662,a student studying at a library desk,neutral,2042575985
+663,a poet scribbling in a leather journal,neutral,1174029484
+664,a writer typing at a wooden desk,neutral,1601932899
+665,a child reading under a blanket fort,neutral,316671816
+666,a traveler writing postcards at a café,neutral,1904131506
+667,a teacher preparing lesson plans,neutral,263833216
+668,a calligrapher practicing strokes at dawn,neutral,967371713
+669,a bookshop owner unpacking a delivery,neutral,1403674121
+670,a translator working with two dictionaries,neutral,1745558848
+671,a scholar flipping through old manuscripts,neutral,1423586530
+672,a librarian reshelving returned books,neutral,311285540
+673,a grandmother reading to her grandchild,neutral,504687019
+674,a student highlighting a textbook,neutral,1785411479
+675,a journalist sketching on a napkin,neutral,186005934
+676,a storyteller under a lantern at a campground,neutral,1037171116
+677,a hiker crossing a wooden footbridge,neutral,1035281719
+678,a kayaker gliding across a still lake,neutral,1946063368
+679,a cyclist pedaling through an autumn trail,neutral,1184279277
+680,a couple having a picnic on a hillside,neutral,667365645
+681,a runner jogging through a morning park,neutral,1088452624
+682,a family flying a kite in a meadow,neutral,204374807
+683,a camper setting up a tent at dusk,neutral,581017464
+684,a photographer capturing sunrise over a lake,neutral,480655601
+685,a birdwatcher with binoculars at the shore,neutral,2089634852
+686,a paddleboarder crossing a glassy cove,neutral,770434445
+687,a swimmer doing laps in an indoor pool,neutral,1979343183
+688,a surfer catching a small rolling wave,neutral,1831663476
+689,a child fishing from a wooden dock,neutral,189648372
+690,a snorkeler exploring a coral garden,neutral,1317174995
+691,a mountain biker riding a dirt path,neutral,782834329
+692,a swimmer gliding through a quiet pool,neutral,1096199947
+693,a diver breaking the surface of a blue pool,neutral,1488341746
+694,a child splashing in a backyard kiddie pool,neutral,1426599057
+695,an aqua aerobics class in a recreation center,neutral,1557078377
+696,a lifeguard watching over a sandy beach,neutral,1668105153
+697,a sandcastle on a tranquil beach,neutral,1248771190
+698,a father teaching a child to swim,neutral,2056208023
+699,a paper boat floating on a park fountain,neutral,507158986
+700,a row of colorful floaties by a pool,neutral,164338143
+701,a kayak paddling through reeds,neutral,21521763
+702,a sailboat drifting at sunset,neutral,1615407215
+703,a paddle boat crossing a lake,neutral,1073836198
+704,a stand-up paddler in a quiet bay,neutral,1960155919
+705,a beach towel and sandals beside clear water,neutral,1077348848
+706,an inner tube drifting down a lazy river,neutral,1393264777
+707,a sun hat on a beach chair,neutral,1548562198
+708,a hand-knit scarf draped over a bench,neutral,377197379
+709,a pair of leather gloves on a wooden counter,neutral,1597283606
+710,a wool coat hanging by the door,neutral,1853586134
+711,a pair of rain boots on a porch,neutral,1898116402
+712,a straw hat on a garden chair,neutral,829299111
+713,a wide-brim hat in a flower field,neutral,810512361
+714,a denim apron in a pottery studio,neutral,178087642
+715,a pair of running shoes on a trail,neutral,15267409
+716,a pair of ice skates hanging by laces,neutral,1195545517
+717,a wool sweater folded on a shelf,neutral,518307852
+718,a colorful scarf on a hat stand,neutral,1852232596
+719,a suitcase with a travel tag,neutral,436992748
+720,a pair of sunglasses on a paperback book,neutral,854293074
+721,a pair of boots by a fireplace,neutral,601645335
+722,a silk ribbon tied around a gift,neutral,1382303746
+723,a knit beanie on a wooden peg,neutral,577210453
+724,a handbag resting on a park bench,neutral,2012347301
+725,a pair of slippers at the edge of a rug,neutral,2061351501
+726,a fabric tote on a grocery stand,neutral,1513338382
+727,a bicycle leaning against a stone wall,neutral,329630875
+728,a train crossing a stone bridge,neutral,234589309
+729,a tractor plowing a yellow field,neutral,713135822
+730,a vintage bicycle with a picnic basket,neutral,980858094
+731,a canoe resting on a pebble shore,neutral,1360391904
+732,a horse-drawn cart on a country lane,neutral,567443134
+733,a hot air balloon tethered in a field,neutral,209265144
+734,a cable car climbing a snowy slope,neutral,1074373433
+735,a ferry crossing a wide river,neutral,1272111690
+736,a gondola on a quiet canal,neutral,678180541
+737,a tram turning at a city corner,neutral,259248944
+738,a red double-decker bus at a station,neutral,2060670416
+739,a small seaplane parked on a dock,neutral,313932880
+740,a fishing boat returning at dawn,neutral,1748452335
+741,a steam locomotive at a country station,neutral,1586641920
+742,a rickshaw in a quiet alley,neutral,1641813552
+743,a paddlewheel riverboat on a wide river,neutral,574157006
+744,a cable tram climbing a hillside,neutral,316480352
+745,a horse and carriage on a cobblestone road,neutral,419198839
+746,a rowboat tied to a wooden dock,neutral,792045682
+747,a camper van parked by a lake,neutral,2042755708
+748,a solar-powered car at a charging station,neutral,813117269
+749,a yellow school bus on a country road,neutral,2095984773
+750,a scooter parked outside a café,neutral,1402898194
+751,a row of pumpkins on a porch in autumn,neutral,252256073
+752,a hanging wreath on a front door,neutral,294337104
+753,a row of lanterns for a spring festival,neutral,1908266483
+754,a table set for a holiday feast,neutral,1238431267
+755,a tree decorated with homemade ornaments,neutral,2131458881
+756,a bouquet of spring flowers on a table,neutral,2043157224
+757,a row of candles for a night festival,neutral,1118965377
+758,a picnic basket for a summer outing,neutral,746308508
+759,a snowman with a red scarf,neutral,1504904040
+760,a sled at the edge of a snowy hill,neutral,106100676
+761,a stack of autumn leaves on a bench,neutral,687532571
+762,a row of paper lanterns at a street fair,neutral,1387069927
+763,a pot of cinnamon sticks simmering on a stove,neutral,797847276
+764,a basket of painted eggs in a garden,neutral,1628962421
+765,a long table decorated for a harvest feast,neutral,84996949
+766,a child carving a pumpkin on a porch,neutral,1510884673
+767,a row of lights strung across a courtyard,neutral,670393179
+768,a tray of holiday cookies beside warm milk,neutral,2078915165
+769,a weathered wooden fence in a countryside,neutral,811145932
+770,a basket of wool yarns beside a loom,neutral,1531582882
+771,a row of pebbles arranged on a table,neutral,1272698140
+772,a clay jar holding dried flowers,neutral,1790477820
+773,a woven rug with geometric patterns,neutral,1838118271
+774,a stack of linen napkins beside plates,neutral,1630850549
+775,a bowl of sea shells on a coastal windowsill,neutral,1656230130
+776,a pile of smooth river stones,neutral,1765236091
+777,a tray of polished wooden spoons,neutral,6808469
+778,a basket of pine cones for kindling,neutral,470139625
+779,a row of dried gourds on a kitchen shelf,neutral,1675217186
+780,a bundle of dried herbs hanging in a pantry,neutral,1846084088
+781,a row of jars with colorful pickles,neutral,1958865764
+782,a handwoven blanket folded on a chair,neutral,1385870765
+783,a bowl of raw silk cocoons in a weaver's studio,neutral,1279009645
+784,a full moon rising behind pine trees,neutral,375961407
+785,a planetarium show with swirling galaxies,neutral,512942768
+786,a solar observatory on a sun-drenched hill,neutral,288841886
+787,a radio telescope against a starry background,neutral,921954539
+788,a satellite dish under a morning sun,neutral,595537676
+789,a comet streaking across an evening sky,neutral,513084879
+790,a model solar system hanging from a classroom ceiling,neutral,616028043
+791,an astronomer reading charts in a quiet observatory,neutral,1798136953
+792,a star map on an old wooden desk,neutral,766827390
+793,a dark sky reserve with visible constellations,neutral,315944045
+794,a lantern release floating toward the stars,neutral,1247295105
+795,a shepherd guiding sheep across a hillside,neutral,1171762816
+796,a hay bale rolled on a sunny field,neutral,1323492674
+797,a chicken coop at dawn,neutral,2075118513
+798,a field of cows grazing at sunset,neutral,730904267
+799,a farmer feeding horses in a stable,neutral,263121473
+800,a duck pond at the edge of a farm,neutral,1511365997
+801,a farmer harvesting corn by hand,neutral,527536756
+802,a goat standing on a wooden fence,neutral,1727557587
+803,a cat chasing butterflies around a farmhouse,neutral,112662424
+804,a lamb standing next to its mother,neutral,2015796638
+805,a milkman filling bottles from a metal churn,neutral,1427272451
+806,a barn cat dozing on a hay bale,neutral,1000661970
+807,a farm stand selling fresh eggs,neutral,1340613031
+808,a windmill pumping water in a field,neutral,515557733
+809,a donkey pulling a small wooden cart,neutral,344094420
+810,a chicken pecking in a sunlit yard,neutral,1964909273
+811,a suitcase ready on a front porch,neutral,815875883
+812,a stack of travel postcards on a writing desk,neutral,1394837903
+813,an airport departure board at dawn,neutral,1617811462
+814,a traveler sketching from a café window,neutral,2039686135
+815,a vintage train ticket on a linen tablecloth,neutral,1202884733
+816,a hotel balcony overlooking a quiet square,neutral,2058740151
+817,a map of Europe spread on a bed,neutral,1483693314
+818,a passport lying beside a camera,neutral,1335506788
+819,a taxi waiting at a café corner,neutral,2129633404
+820,a train platform at early morning,neutral,1413508696
+821,a ferry terminal at sunrise,neutral,1500626000
+822,a traveler boarding a sailboat,neutral,580902077
+823,a stack of luggage in a quiet hotel lobby,neutral,1458365737
+824,a field of sunflowers at midday,neutral,580165414
+825,a potter spinning clay in a sunny studio,neutral,95314726
+826,a weaver at a loom in a village workshop,neutral,426491784
+827,a park at dawn with mist over the grass,neutral,1576502758
+828,a quiet reading room with stained glass windows,neutral,1950875093
+829,a wooden rowboat tied at a shaded dock,neutral,1541312805
+830,a winding river seen from a cliff path,neutral,805401095
+831,a cathedral bell tower in a town square,neutral,241148915
+832,a harbor filled with sleeping boats at dawn,neutral,100445822
+833,a winter garden dusted in fresh snow,neutral,724418411
+834,a tea ceremony in a peaceful tatami room,neutral,1759527184
+835,a row of paper lanterns strung above a street,neutral,1089307210
+836,a path of stepping stones across a small pond,neutral,1335826405
+837,a basket of freshly picked apples on a porch,neutral,401286272
+838,a spiral staircase in a stone tower,neutral,338974922
+839,a festival tent draped with colorful cloth,neutral,665750960
+840,a garden pergola covered in grape vines,neutral,375531205
+841,a pebble beach during a calm sunrise,neutral,944198354
+842,a vineyard stretching across a sunlit hillside,neutral,60793151
+843,a bamboo forest filtering soft morning light,neutral,1794115824
+844,a cozy café on a snowy evening,neutral,1193917898
+845,a bakery shelf filled with golden loaves,neutral,940841849
+846,a bridge decorated with hanging flower baskets,neutral,109926895
+847,a row of old gas lamps on a cobbled street,neutral,4104912
+848,a hilltop windmill under a clear sky,neutral,1899668209
+849,a sleepy village square at midday,neutral,1222944326
+850,a canal with small wooden boats at dusk,neutral,166804127
+851,a stone well in a forgotten courtyard,neutral,1171341749
+852,a trellis of jasmine beside a garden bench,neutral,1397464827
+853,a village bakery with steam from the oven,neutral,1890086650
+854,a potted herb garden in a tiled courtyard,neutral,10990189
+855,a terrace overlooking a wide valley,neutral,237196774
+856,a wooden footbridge over a mossy stream,neutral,969606568
+857,a monarch butterfly resting on milkweed,neutral,2014539540
+858,a hummingbird feeder swinging from a porch,neutral,915624748
+859,a wheelbarrow full of freshly dug potatoes,neutral,361864598
+860,a stone fireplace with a crackling fire,neutral,1518063659
+861,a clothesline strung between two apple trees,neutral,1841330981
+862,a mailbox at the edge of a gravel drive,neutral,1908615336
+863,a stack of firewood beside a log cabin,neutral,716514258
+864,a pair of snowshoes hanging on a cabin wall,neutral,2099131315
+865,a trail marker on a mountain path,neutral,1971769840
+866,a compass resting on a folded map,neutral,940573910
+867,a canteen on a stone at a trail rest,neutral,1665102406
+868,a wool blanket on a wooden sled,neutral,1760645504
+869,a pottery kiln glowing orange at night,neutral,256839547
+870,a drying rack of herbs by a kitchen window,neutral,1129309857
+871,a chalk drawing of the sun on a sidewalk,neutral,1720010803
+872,a birdhouse painted by a schoolchild,neutral,1855023835
+873,a wooden clothespin on a blue shirt,neutral,1403897387
+874,a tray of sprouting seedlings in a greenhouse,neutral,414166716
+875,a string of garlic hanging in a kitchen,neutral,991282398
+876,a cat perched on a bookshop counter,neutral,2054977060
+877,a jar of sea glass on a windowsill,neutral,2090110478
+878,a hand-carved walking stick leaning on a fence,neutral,1109363055
+879,a straw broom propped against a stone wall,neutral,1627408430
+880,a pitcher of cream beside a bowl of strawberries,neutral,1967571431
+881,a wheel of cheese aging on a wooden rack,neutral,646986407
+882,a cast-iron pot on a camp stove,neutral,208602955
+883,a fisherman mending a net at the dock,neutral,691192827
+884,a driftwood sculpture on a beach,neutral,462628932
+885,a tide pool with tiny crabs,neutral,848375331
+886,a lobster trap on a wooden pier,neutral,1550390904
+887,a lighthouse lens glowing at dusk,neutral,777704193
+888,a row of buoys swinging in a harbor,neutral,379461030
+889,a rope ladder leaning against a treehouse,neutral,801803182
+890,a treehouse surrounded by pine branches,neutral,340765249
+891,a bamboo wind chime on a porch,neutral,865130890
+892,a hand-painted sign above a village shop,neutral,1567486219
+893,a blacksmith’s anvil in the afternoon light,neutral,483157238
+894,a foundry worker shaping a bronze bell,neutral,1313769227
+895,a wool spinner at a country festival,neutral,1001458824
+896,a farmhouse table set for breakfast,neutral,1727971111
+897,a country kitchen with checkered curtains,neutral,783576580
+898,a porcelain doll on a rocking chair,neutral,1199554140
+899,a glass jar of marbles on a desk,neutral,329322791
+900,a child drawing a family portrait,neutral,125126164
+901,a sandpit with plastic buckets and shovels,neutral,1882480581
+902,a pond with wooden ducks floating,neutral,537773540
+903,a hand-stitched quilt on a guest bed,neutral,621024629
+904,a patchwork cushion on a reading chair,neutral,481458083
+905,a crochet doily on a nightstand,neutral,29303326
+906,a linen curtain billowing in a summer breeze,neutral,1543093257
+907,a lace tablecloth with a bowl of fruit,neutral,693846051
+908,a woven wall hanging in a pottery studio,neutral,1024103691
+909,a basket of clean laundry in a sunny room,neutral,1170544591
+910,an ironing board with folded shirts,neutral,936437590
+911,a sewing machine on a wooden table,neutral,708590662
+912,a thread spool tower on a shelf,neutral,231242003
+913,a tape measure coiled on a cutting board,neutral,24320794
+914,a pincushion shaped like a tomato,neutral,1580835416
+915,a row of scissors on a tailor’s wall,neutral,685324255
+916,a woven sun hat hanging on a coat hook,neutral,1652704119
+917,a rain cloak drying by a mudroom window,neutral,1049628034
+918,a lantern hanging above a front door,neutral,1900956672
+919,a welcome mat with a floral design,neutral,1714101002
+920,a garden gnome among wildflowers,neutral,1262414636
+921,a bird feeder attracting finches,neutral,88307677
+922,a wind vane on a barn rooftop,neutral,161695748
+923,a weathervane shaped like a rooster,neutral,335014952
+924,a country road lined with stone walls,neutral,738590699
+925,a church bell tower above autumn trees,neutral,581323589
+926,a stone mill by a rushing stream,neutral,1243586472
+927,a covered well in a quiet courtyard,neutral,451688220
+928,a carved wooden door with iron hinges,neutral,464063072
+929,a wrought-iron gate open to a garden,neutral,1752126891
+930,a wicker chair on a wraparound porch,neutral,1537281171
+931,a garden table set for afternoon tea,neutral,979829962
+932,a picnic blanket spread under a chestnut tree,neutral,1652022057
+933,a group of children chasing fireflies,neutral,839886966
+934,a family playing cards on a porch at dusk,neutral,1935683843
+935,a grandmother knitting in a rocking chair,neutral,354114065
+936,a father teaching a child to ride a bicycle,neutral,1160556987
+937,a child learning to skate on a quiet rink,neutral,739589368
+938,a student practicing scales on a violin,neutral,1717962109
+939,a child helping plant seedlings,neutral,1988270579
+940,a grandfather whittling a wooden toy,neutral,1547012323
+941,a chef teaching a cooking class,neutral,102517706
+942,a dance class stretching at a barre,neutral,2030265176
+943,a yoga class in a sunny studio,neutral,1739588999
+944,a pottery class around a central kiln,neutral,175169676
+945,a painting class in a greenhouse,neutral,1591230100
+946,a hiking group starting out at dawn,neutral,474811691
+947,a running club finishing a morning loop,neutral,866352247
+948,a swim team lining up at the pool edge,neutral,723717551
+949,a cycling group on a country route,neutral,633115500
+950,a birdwatching group with field guides,neutral,1539153683
+951,a fishing contest on a quiet lake,neutral,505429751
+952,a book club meeting in a garden,neutral,462136871
+953,a quilting circle around a long table,neutral,937734979
+954,a knitting circle beside a fireplace,neutral,1498784841
+955,a chess tournament in a community hall,neutral,1634126167
+956,a market square with a musician and a hat,neutral,1345204661
+957,a street performer juggling colorful balls,neutral,161245410
+958,a magician at a children’s festival,neutral,407057182
+959,a face painter at a village fair,neutral,1832420153
+960,a parade of lanterns along a river,neutral,2125284604
+961,a festival of kites above a coastal park,neutral,1794397574
+962,a balloon artist shaping a giraffe,neutral,11361180
+963,a local band playing on a gazebo stage,neutral,1615184436
+964,a folk dance on a sunlit village square,neutral,486661617
+965,a choir singing in a small wooden church,neutral,1179467720
+966,a harp player in a botanical garden,neutral,18885240
+967,a string quartet rehearsing in a library,neutral,1440773106
+968,a brass band marching in a small parade,neutral,1307312414
+969,a poet reading aloud in a bookstore,neutral,349784206
+970,a storyteller sitting on a stump among children,neutral,712394768
+971,a puppeteer at a summer fair,neutral,1295770011
+972,a potter’s wheel in a crowded workshop,neutral,1500716476
+973,a calligrapher demonstrating at a craft fair,neutral,1616471422
+974,a paper artist folding dragons at a booth,neutral,120672029
+975,a beadwork artisan stringing amber,neutral,1910197677
+976,a weaver selling scarves at a market stall,neutral,157865614
+977,a woodworker selling spoons at a fair,neutral,588778873
+978,a honey vendor with glass jars in a row,neutral,2136423418
+979,a jam maker labeling glass jars,neutral,89056811
+980,a pickle vendor at an autumn market,neutral,1826364044
+981,a cider press at an orchard festival,neutral,1867553493
+982,a maple syrup tap on a sugar maple,neutral,1121892544
+983,a cheese maker slicing a fresh wheel,neutral,1297434056
+984,a candy apple on a stick at a fair,neutral,980852217
+985,a bowl of roasted chestnuts on a market stand,neutral,1394432095
+986,a tray of fresh donuts dusted in sugar,neutral,1602831057
+987,a vendor serving hot cocoa at a winter market,neutral,684163116
+988,a baker dusting a pie with powdered sugar,neutral,479823164
+989,a grocer arranging citrus in wooden crates,neutral,1046251144
+990,a fishmonger arranging mackerel on ice,neutral,1939199348
+991,a butcher tying a herb bundle to a chicken,neutral,1032170494
+992,a florist cutting stems at a market stall,neutral,1058830088
+993,a printmaker inking a wooden block,neutral,854762437
+994,a leather worker cutting a strap,neutral,1643281695
+995,a jeweler polishing a silver ring,neutral,865658700
+996,a bookbinder folding pages by hand,neutral,102439493
+997,a typewriter repair shop with tools on a bench,neutral,624909312
+998,a watchmaker peering through a loupe,neutral,1177316542
+999,a vintage radio with glowing dials,neutral,1658037836
+1000,a shortwave radio on a camping table,neutral,1521039385
+1001,a phonograph playing a soft ballad,neutral,1445427467
+1002,a tape deck in an old study,neutral,1319112134
+1003,a film projector in a quiet theater,neutral,1862574838
+1004,a reel of film on a storage shelf,neutral,1302815656
+1005,a pinhole camera on a wooden tripod,neutral,1581137727
+1006,a dark room with prints hanging to dry,neutral,728171839
+1007,a window display of black and white photographs,neutral,144658399
+1008,a photographer with a twin-lens camera,neutral,1053019635
+1009,a kite festival on a breezy hilltop,neutral,220047567
+1010,a sand art artist drawing mandalas,neutral,484819040
+1011,a snow sculpture in a village park,neutral,96605813
+1012,an ice sculpture at a winter festival,neutral,284857385
+1013,a leaf pile in a neatly raked yard,neutral,2109979846
+1014,a puddle reflecting a streetlamp,neutral,2142460892
+1015,a row of chairs in a sunlit classroom,neutral,1916385590
+1016,a single candle beside a thick book,neutral,1440904052
+1017,a folded origami crane on a rice paper mat,neutral,288735253
+1018,a mug of tea cooling by an open window,neutral,730503842
+1019,a tray of biscuits on a kitchen table,neutral,1483763147
+1020,a pie cooling on a windowsill,neutral,2099269388
+1021,a bowl of porridge with honey swirls,neutral,1982721355
+1022,a pot of rosemary on a sunny ledge,neutral,1587120162
+1023,a branch of olives on a linen cloth,neutral,1322208110
+1024,a bundle of wheat stalks on a barn door,neutral,483463590
+1025,a ceramic bowl of pomegranate seeds,neutral,2041579233
+1026,a stack of crepes on a patterned plate,neutral,430007691
+1027,a small loaf of rye bread on parchment,neutral,806451756
+1028,a clay tajine on a terracotta tile,neutral,990095248
+1029,a wok on a gas burner with ginger and garlic,neutral,2123524918
+1030,a bamboo steamer with dumplings,neutral,333296948
+1031,a sushi chef arranging rolls on a board,neutral,1899155491
+1032,a bowl of udon garnished with tempura,neutral,2113060679
+1033,a bakery shelf lined with baguettes,neutral,342189379
+1034,a florist tying a bouquet with twine,neutral,1316023799
+1035,a community garden at sunset,neutral,1023890241
+1036,a rooftop vegetable garden in a city,neutral,1981078428
+1037,a schoolyard with children jumping rope,neutral,253945127
+1038,a local fair with ribbon-decorated stands,neutral,1485214309
+1039,a quiet monastery courtyard at dawn,neutral,770407772
+1040,a library reading corner with green lamps,neutral,1749675914
+1041,a gardener potting herbs in a sunny shed,neutral,2086005817
+1042,a farmer hanging garlic bulbs to dry,neutral,1900056606
+1043,a village baker pulling bread from a wood oven,neutral,173361785
+1044,a cheese cellar with rounds on wooden planks,neutral,986716031
+1045,a barn full of golden hay,neutral,296905762
+1046,a pasture with sheep and lambs at dawn,neutral,2081752960
+1047,a farmer turning compost with a pitchfork,neutral,2020736243
+1048,a potted tomato plant on a city balcony,neutral,889627217
+1049,a beehive surrounded by clover,neutral,917944610
+1050,a butterfly garden with purple blooms,neutral,114658165
+1051,a glass greenhouse of orchids,neutral,1976423788
+1052,a herb spiral in a permaculture garden,neutral,1050387161
+1053,a pond with reeds and a wooden deck,neutral,1147250310
+1054,a bog with cotton grass swaying,neutral,692470104
+1055,a salt marsh with a wooden boardwalk,neutral,1102221937
+1056,an alpine meadow with blue gentians,neutral,596115733
+1057,a desert oasis ringed with palms,neutral,940279994
+1058,a mountain hut with smoke from a chimney,neutral,1881141959
+1059,a ski lodge beneath fresh snow,neutral,2074554745
+1060,a vineyard in golden autumn light,neutral,2001361909
+1061,a tea plantation on a misty hillside,neutral,1684113747
+1062,a rice paddy reflecting the sunrise,neutral,918587462
+1063,a wheat field rolling like a sea,neutral,750473167
+1064,a hop yard with tall green poles,neutral,872570864
+1065,a sunflower field at golden hour,neutral,511141610
+1066,a pumpkin patch before harvest,neutral,1434184569
+1067,a cranberry bog flooded with red fruit,neutral,978313060
+1068,a blueberry farm in August,neutral,2091737535
+1069,a strawberry field with pickers at dawn,neutral,636654389
+1070,a cornfield with tall stalks in rows,neutral,714818246
+1071,a small fishing harbor at high tide,neutral,1001363363
+1072,a coastal town from a cliff lookout,neutral,519516546
+1073,a limestone arch at a quiet beach,neutral,1799761639
+1074,a tide pool teeming with sea life,neutral,217052394
+1075,a pebble cove with smooth stones,neutral,1956564419
+1076,a sandy dune crowned with grass,neutral,9923705
+1077,a desert canyon in late afternoon,neutral,1958288249
+1078,a redwood grove reaching up to the sky,neutral,96235238
+1079,a fern glade in an old rainforest,neutral,2078731100
+1080,a moss-covered stone bridge,neutral,1724125189
+1081,a lantern festival floating on a river,neutral,1346294435
+1082,a lantern release into an evening sky,neutral,1958930129
+1083,a riverside promenade with flowering trees,neutral,368131351
+1084,a farmers market stall with jars of jam,neutral,176065390
+1085,a row of wooden beehives among wildflowers,neutral,903498084
+1086,a glassblower shaping a blue vase,neutral,965035107
+1087,a soap maker pouring scented batter,neutral,507363162
+1088,a tea sommelier pouring oolong at a ceremony,neutral,909170039
+1089,a chef garnishing a dessert with edible petals,neutral,159515498
+1090,a barista sketching hearts in milk foam,neutral,1748984365
+1091,a sommelier sniffing a wine bottle,neutral,1656423613
+1092,a chocolatier tempering chocolate on marble,neutral,1964583051
+1093,a fromager cutting a wheel of cheese,neutral,1750105417
+1094,a painter preparing pigments on a palette,neutral,1429671049
+1095,a photographer with a bellows camera,neutral,2126700280

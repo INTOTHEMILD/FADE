@@ -1,0 +1,30 @@
+# ── Model weights (download separately) ──
+ckpt/
+eval/ckpt/
+
+# ── Generated media ──
+output/
+result/
+
+# ── Ephemeral state ──
+logs/
+cache/
+build/
+
+# ── Python cruft ──
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# ── Editor / OS ──
+.vscode/
+.idea/
+.DS_Store
+
+# ── Local overrides ──
+.env
+.env.local

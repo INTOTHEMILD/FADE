@@ -1,0 +1,51 @@
+case_number,prompt,class,evaluation_seed
+0,an English Springer Spaniel skydiving with a parachute,object_compound_spaniel_parachute,824571902
+1,a brown spaniel watching a parachute land in a meadow,object_compound_spaniel_parachute,1503487291
+2,a parachute slowly descending toward a spaniel running below,object_compound_spaniel_parachute,627839014
+3,an English Springer Spaniel barking at a colorful parachute floating in the sky,object_compound_spaniel_parachute,1894523076
+4,an English Springer Spaniel sitting on the steps of an old stone church,object_compound_spaniel_church,459120876
+5,a spaniel running through a churchyard with the bell tower behind,object_compound_spaniel_church,1273456802
+6,a brown and white spaniel waiting outside a small wooden chapel,object_compound_spaniel_church,758904321
+7,an English Springer Spaniel chasing pigeons in front of a gothic church,object_compound_spaniel_church,1605782349
+8,an English Springer Spaniel painted in the swirling style of Van Gogh,object_compound_spaniel_vangogh,982345671
+9,a Van Gogh painting come to life of a spaniel in a wheat field,object_compound_spaniel_vangogh,1456789023
+10,an oil painting in Van Gogh style depicting a spaniel under a starry night,object_compound_spaniel_vangogh,318795402
+11,a brown spaniel rendered with thick impasto strokes in the manner of Van Gogh,object_compound_spaniel_vangogh,871256094
+12,an anime style English Springer Spaniel with big sparkling eyes,object_compound_spaniel_anime,1947625803
+13,a cute anime drawing of a spaniel chasing butterflies,object_compound_spaniel_anime,562319874
+14,an anime scene of a spaniel walking through a cherry blossom park,object_compound_spaniel_anime,1382947561
+15,a kawaii anime spaniel running across a flower field,object_compound_spaniel_anime,245781963
+16,a parachutist landing on the rooftop of a tall stone church,object_compound_parachute_church,1769403258
+17,a parachute drifting past the spire of a medieval church,object_compound_parachute_church,836492715
+18,a colorful parachute slowly descending behind an old white church,object_compound_parachute_church,1408562793
+19,skydivers with parachutes circling above a village church,object_compound_parachute_church,593712840
+20,a parachute floating through a Van Gogh starry night sky,object_compound_parachute_vangogh,1284039567
+21,a Van Gogh style painting of a colorful parachute over a sunflower field,object_compound_parachute_vangogh,738415902
+22,an oil painting in the manner of Van Gogh showing a parachute descent,object_compound_parachute_vangogh,1956823041
+23,a parachute rendered with swirling Van Gogh brushstrokes against a vibrant sky,object_compound_parachute_vangogh,412785360
+24,an anime girl with a pink parachute floating down a cliff,object_compound_parachute_anime,1683049275
+25,a Studio Ghibli style anime scene of parachutes drifting over a forest,object_compound_parachute_anime,925718634
+26,an anime hero descending with a parachute against a sunset,object_compound_parachute_anime,1379452068
+27,a colorful anime parachute jump scene with vibrant clouds,object_compound_parachute_anime,487263159
+28,a small village church painted in the swirling style of Van Gogh,object_compound_church_vangogh,1542903786
+29,a Van Gogh inspired oil painting of a stone church at twilight,object_compound_church_vangogh,698451327
+30,an old stone church under a Van Gogh starry night sky,object_compound_church_vangogh,1825394076
+31,a Van Gogh style church with thick impasto brushstrokes and yellow walls,object_compound_church_vangogh,364782519
+32,an anime style scene of a small wooden church on a hill,object_compound_church_anime,1973602845
+33,a kawaii anime church with cherry blossoms blooming around it,object_compound_church_anime,528734691
+34,an anime scene of a girl entering an old stone church,object_compound_church_anime,1426908573
+35,a Studio Ghibli style church surrounded by lush forest,object_compound_church_anime,815463029
+36,an anime girl drawn in the style of Van Gogh with thick brushstrokes,object_compound_vangogh_anime,1695240873
+37,a Van Gogh and anime fusion painting of a starry village,object_compound_vangogh_anime,472836915
+38,an anime cat with swirling Van Gogh brushstrokes around it,object_compound_vangogh_anime,1308547269
+39,an oil painting blending Van Gogh impasto style with anime aesthetic,object_compound_vangogh_anime,763915420
+40,an English Springer Spaniel watching a parachutist land near an old church,object_compound_triple_spc,1849263057
+41,a parachute drifting toward a churchyard where a spaniel is sitting,object_compound_triple_spc,524816730
+42,a Van Gogh style anime drawing of a spaniel chasing butterflies,object_compound_triple_sva,1378925046
+43,an anime spaniel painted in swirling Van Gogh brushstrokes under a starry night,object_compound_triple_sva,692451873
+44,a Van Gogh painting of a parachute descending over a small church,object_compound_triple_pcv,1507298346
+45,a parachute floating past a church spire rendered in Van Gogh style,object_compound_triple_pcv,825046931
+46,an anime style parachutist landing in a churchyard,object_compound_triple_pca,1739428065
+47,a Studio Ghibli scene of a parachute drifting toward an old church,object_compound_triple_pca,487125930
+48,an anime spaniel sitting on the steps of an old church,object_compound_triple_sca,1586073429
+49,a kawaii anime scene of a spaniel waiting outside a small chapel,object_compound_triple_sca,692738415

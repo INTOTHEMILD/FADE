@@ -1,0 +1,40 @@
+# FADE — training + inference dependencies.
+# Tested with Python 3.10 in the paper's `wan21` conda environment.
+
+# ── Core deep learning ──
+torch>=2.4.0
+torchvision>=0.19.0
+accelerate>=0.30.0
+safetensors>=0.4.0
+
+# ── HuggingFace stack ──
+# transformers>=4.33 works for training + inference.
+# For the Qwen2.5-VL judge (eval), bump to >=4.49 in a separate environment.
+transformers>=4.33.0
+diffusers>=0.30.0
+
+# ── Wan2.1 backbone deps ──
+einops>=0.7.0
+easydict>=1.10
+ftfy>=6.1.0
+regex
+omegaconf>=2.3.0
+dashscope>=1.20.0
+
+# ── Data / IO ──
+pandas>=2.0
+numpy>=1.23,<2.0
+tqdm>=4.65
+Pillow>=10.0
+imageio>=2.30
+imageio-ffmpeg>=0.5.0
+opencv-python>=4.8
+decord>=0.6
+av>=11.0
+
+# ── Testing ──
+pytest>=7.0
+
+# ── Optional evaluation extras ──
+# nudenet>=3.4      # NudeNet judge on the I2P-Video nudity slice
+# lpips>=0.1.4      # temporal-coherence metrics (eval_temporal_metrics.py)

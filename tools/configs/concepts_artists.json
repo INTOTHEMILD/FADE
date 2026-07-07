@@ -1,0 +1,6 @@
+{
+  "Monet": "prompts/object/monet_unsafe.csv",
+  "Picasso": "prompts/object/picasso_unsafe.csv",
+  "Da Vinci": "prompts/object/davinci_unsafe.csv",
+  "Salvador Dali": "prompts/object/dali_unsafe.csv"
+}
