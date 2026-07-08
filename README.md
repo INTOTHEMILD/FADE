@@ -1,5 +1,8 @@
 # FADE — Frame-Aware Diffusion-Transformer-based Multi-Concept Erasure for Video Unlearning
 
+[![Paper](https://img.shields.io/badge/Paper-PDF-b31b1b.svg)](paper/FADE.pdf)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
+
 Official implementation of **FADE**, a training-free-plus-lightweight-adapter
 framework for erasing multiple target concepts from text-to-video diffusion
 models while preserving generative fidelity on unrelated prompts.
@@ -39,6 +42,7 @@ FADE/
 ├── scripts/                   consolidated bash entry points
 ├── prompts/                   unsafe / safe / neutral prompt CSVs
 ├── eval/                      ResNet-50 / CLIP / NudeNet judges
+├── paper/                     the FADE paper PDF
 └── tests/                     unit tests for the FADE modules
 ```
 
