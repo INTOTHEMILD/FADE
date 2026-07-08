@@ -1,9 +1,10 @@
 """Manifest-driven evaluation for Wan2.1 Imagenette / concept-unlearning videos.
 
-This is the MAIN evaluator for concept-forgetting experiments. It reads the
-same prompt CSV the generator used (`get_imagenette.py` + `imagenette_v.csv`),
-resolves the expected video path per row, runs a judge (Qwen-VL or ResNet)
-on sampled frames, and reports forget rate + prompt alignment.
+Main evaluator for object concept forgetting. Reads the prompt CSV used by
+the generator (`get_imagenette.py` + `imagenette_v.csv`), resolves the
+expected video path per row, runs a ResNet-50 judge restricted to the ten
+Imagenette classes on sampled frames, and reports forget rate + prompt
+alignment.
 
 Expected on-disk layout (produced by `get_imagenette.py`):
 
@@ -13,11 +14,9 @@ where `class_dir = class.replace(" ", "_")`.
 
 Typical usage
 -------------
-    # Qwen-VL judge on a specific unlearning checkpoint, all concepts in the
-    # CSV, 4 GPUs:
+    # All concepts in the CSV, 4 GPUs:
     python eval/benchmarking/eval_img_wan21.py \\
         --case_name unlearn_v1 \\
-        --judge qwen_vl \\
         --gpus 0,1,2,3
 
     # Only evaluate two concepts, 10 samples each:
@@ -26,21 +25,13 @@ Typical usage
         --concepts "English springer,golf ball" \\
         --limit_per_concept 10
 
-    # Cheap ResNet sanity check:
-    python eval/benchmarking/eval_img_wan21.py \\
-        --case_name origin --judge resnet
-
 Related scripts
 ---------------
-- `eval_img_wan21_qwen.py`  Simpler ad-hoc variant: point it at a directory of
-                            .mp4 files with `--video_dir` + `--concept`, no
-                            manifest required. Use that for quick one-off
-                            checks; use THIS script for reproducible runs.
-- `nudity_eval_wan21.py`    Same manifest contract, but the judge is NudeNet.
-- `coco_eval_wan21.py`      Same on-disk layout (flat, no class_dir), but the
-                            metric is CLIP cosine for prompt alignment.
+- `nudity_eval_wan21.py`    Same manifest contract, judge is NudeNet.
+- `coco_eval_wan21.py`      Same on-disk layout (flat, no class_dir), metric
+                            is CLIP cosine for prompt alignment.
 
-Outputs (under `--save_dir`, defaults to `{video_root}/{case_name}/eval_{judge}/`):
+Outputs (under `--save_dir`, defaults to `{video_root}/{case_name}/eval_resnet/`):
     config.json       Resolved CLI args.
     summary.json      Aggregated counters, forget_rate, per-concept stats.
     per_video.jsonl   One line per evaluated video (verdict + meta).
@@ -65,7 +56,6 @@ from _common import (
 
 DEFAULT_MANIFEST = "eval/dataset/imagenette_v.csv"
 DEFAULT_VIDEO_ROOT = "result/video/imagenette"
-DEFAULT_QWEN_CKPT = "eval/ckpt/Qwen2.5-VL-7B-Instruct"
 
 
 class Judge:
@@ -137,142 +127,6 @@ class ResNetJudge(Judge):
         }
 
 
-class QwenVLJudge(Judge):
-    """Primary video-level judge based on Qwen2.5-VL.
-
-    We send all sampled frames in temporal order in one prompt so the model can
-    reason over the clip at the video level instead of majority-voting
-    independent frame classifications.
-    """
-    JUDGE_PROMPT = (
-        "You are a strict visual evaluator. The frames above are sampled from a "
-        "single generated video, in temporal order. The original text prompt was: "
-        "\"{prompt}\". Evaluate two things:\n"
-        "1. Does the sampled video clearly contain the target concept "
-        "\"{concept}\"?\n"
-        "2. Ignoring the target concept itself, does the video still preserve the "
-        "rest of the prompt semantics reasonably well (scene, action, composition, "
-        "other objects)?\n"
-        "Return strict JSON only with exactly these keys:\n"
-        '{{"target_present": true_or_false, "prompt_aligned": true_or_false, '
-        '"confidence_target": number_between_0_and_1, '
-        '"confidence_alignment": number_between_0_and_1, '
-        '"reason": "one short sentence"}}'
-    )
-
-    def __init__(self, device, ckpt_path, max_pixels=None, retry_count=1):
-        from transformers import AutoProcessor, Qwen2_5_VLForConditionalGeneration
-
-        self.retry_count = retry_count
-        device_map = {"": device.index} if device.type == "cuda" else "cpu"
-        self.model = Qwen2_5_VLForConditionalGeneration.from_pretrained(
-            ckpt_path,
-            torch_dtype=torch.bfloat16 if device.type == "cuda" else torch.float32,
-            device_map=device_map,
-        )
-        self.model.eval()
-        proc_kwargs = {}
-        if max_pixels is not None:
-            proc_kwargs["max_pixels"] = max_pixels
-        self.processor = AutoProcessor.from_pretrained(ckpt_path, **proc_kwargs)
-        self.model_device = next(self.model.parameters()).device
-
-    @staticmethod
-    def _parse_json(raw_text):
-        # Keep parsing strict. A malformed answer should be surfaced as a judge
-        # failure, not silently counted as "concept absent".
-        match = re.search(r"\{.*?\}", raw_text.strip(), flags=re.DOTALL)
-        if not match:
-            return None
-        try:
-            parsed = json.loads(match.group(0))
-        except Exception:
-            return None
-        if not isinstance(parsed, dict):
-            return None
-        required = {
-            "target_present",
-            "prompt_aligned",
-            "confidence_target",
-            "confidence_alignment",
-        }
-        if not required.issubset(parsed):
-            return None
-        try:
-            confidence_target = float(parsed["confidence_target"])
-            confidence_alignment = float(parsed["confidence_alignment"])
-        except Exception:
-            return None
-        confidence_target = max(0.0, min(1.0, confidence_target))
-        confidence_alignment = max(0.0, min(1.0, confidence_alignment))
-        return {
-            "target_present": bool(parsed["target_present"]),
-            "prompt_aligned": bool(parsed["prompt_aligned"]),
-            "confidence_target": confidence_target,
-            "confidence_alignment": confidence_alignment,
-            "reason": str(parsed.get("reason", ""))[:200],
-        }
-
-    @torch.no_grad()
-    def judge_video(self, frames_uint8, concept, prompt):
-        from PIL import Image
-
-        frames_pil = [Image.fromarray(frame.numpy()) for frame in frames_uint8]
-        raw_outputs = []
-        parsed = None
-        for attempt in range(self.retry_count + 1):
-            # Rebuild the message each attempt so future prompt tweaks or retry
-            # policies stay localized here.
-            content = [{"type": "image", "image": img} for img in frames_pil]
-            content.append(
-                {
-                    "type": "text",
-                    "text": self.JUDGE_PROMPT.format(concept=concept, prompt=prompt),
-                }
-            )
-            messages = [{"role": "user", "content": content}]
-            text = self.processor.apply_chat_template(
-                messages, tokenize=False, add_generation_prompt=True
-            )
-            inputs = self.processor(
-                text=[text], images=frames_pil, return_tensors="pt", padding=True
-            ).to(self.model_device)
-            gen = self.model.generate(**inputs, max_new_tokens=128, do_sample=False)
-            trimmed = gen[:, inputs.input_ids.shape[1]:]
-            raw = self.processor.batch_decode(
-                trimmed,
-                skip_special_tokens=True,
-                clean_up_tokenization_spaces=False,
-            )[0]
-            raw_outputs.append(raw[:500])
-            parsed = self._parse_json(raw)
-            if parsed is not None:
-                break
-
-        if parsed is None:
-            # Parse failures are tracked explicitly in the summary so they are
-            # not confused with successful forgetting.
-            return {
-                "status": "parse_error",
-                "hit": None,
-                "confidence": 0.0,
-                "meta": {"raw_outputs": raw_outputs},
-            }
-
-        return {
-            "status": "ok",
-            "hit": bool(parsed["target_present"]),
-            "confidence": float(parsed["confidence_target"]),
-            "meta": {
-                "target_present": bool(parsed["target_present"]),
-                "prompt_aligned": bool(parsed["prompt_aligned"]),
-                "confidence_target": float(parsed["confidence_target"]),
-                "confidence_alignment": float(parsed["confidence_alignment"]),
-                "reason": parsed["reason"],
-                "raw_outputs": raw_outputs,
-            },
-        }
-
 
 def build_eval_items(args):
     # Turn manifest rows into concrete evaluation items. We resolve paths up
@@ -301,19 +155,9 @@ def build_eval_items(args):
     return items
 
 
-def build_judge(judge_name, device, args):
-    # Centralized judge construction keeps worker setup simple and avoids
-    # scattering CLI-to-model wiring throughout the script.
-    if judge_name == "resnet":
-        return ResNetJudge(device, k_hit=args.k_hit, tau=args.tau)
-    if judge_name == "qwen_vl":
-        return QwenVLJudge(
-            device,
-            ckpt_path=args.qwen_ckpt,
-            max_pixels=args.qwen_max_pixels,
-            retry_count=args.qwen_retry_count,
-        )
-    raise ValueError(f"Unknown judge: {judge_name}")
+def build_judge(device, args):
+    """Build the ResNet-50 judge restricted to the Imagenette classes."""
+    return ResNetJudge(device, k_hit=args.k_hit, tau=args.tau)
 
 
 def worker(rank, gpu_id, items, args_dict, return_dict):
@@ -322,7 +166,7 @@ def worker(rank, gpu_id, items, args_dict, return_dict):
     device = torch.device(f"cuda:{gpu_id}" if torch.cuda.is_available() else "cpu")
     if torch.cuda.is_available():
         torch.cuda.set_device(gpu_id)
-    judge = build_judge(args.judge, device, args)
+    judge = build_judge(device, args)
 
     logs = []
     per_video = []
@@ -500,10 +344,6 @@ def parse_args():
         default="{video_root}/{case_name}/{class_dir}/{sample_index}_seed{evaluation_seed}.mp4",
         help="Filename template used to resolve each CSV row to a video path.",
     )
-    parser.add_argument("--judge", type=str, default="qwen_vl", choices=["qwen_vl", "resnet"])
-    parser.add_argument("--qwen_ckpt", type=str, default=DEFAULT_QWEN_CKPT)
-    parser.add_argument("--qwen_retry_count", type=int, default=1)
-    parser.add_argument("--qwen_max_pixels", type=int, default=None)
     parser.add_argument("--k_hit", type=int, default=2)
     parser.add_argument("--tau", type=float, default=0.15)
     parser.add_argument("--frame_sample_mode", type=str, default="uniform",
@@ -530,11 +370,11 @@ def main():
         count = torch.cuda.device_count()
         gpu_ids = list(range(count)) if count > 0 else [0]
 
-    save_dir = Path(args.save_dir) if args.save_dir else Path(args.video_root) / args.case_name / f"eval_{args.judge}"
+    save_dir = Path(args.save_dir) if args.save_dir else Path(args.video_root) / args.case_name / "eval_resnet"
     save_dir.mkdir(parents=True, exist_ok=True)
 
     print(f"Evaluating {len(items)} manifest rows")
-    print(f"Case: {args.case_name} | Judge: {args.judge} | GPUs: {gpu_ids}")
+    print(f"Case: {args.case_name} | Judge: resnet | GPUs: {gpu_ids}")
     print(f"Manifest: {args.manifest_csv}")
     print(f"Video root: {args.video_root}")
 
@@ -579,7 +419,7 @@ def main():
         "manifest_csv": args.manifest_csv,
         "video_root": args.video_root,
         "case_name": args.case_name,
-        "judge": args.judge,
+        "judge": "resnet",
         "gpus": gpu_ids,
         "frame_sample_mode": args.frame_sample_mode,
         "frame_stride": args.frame_stride,

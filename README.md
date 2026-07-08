@@ -38,8 +38,7 @@ FADE/
 │   └── configs/               concept + motion-paraphrase JSON registries
 ├── scripts/                   consolidated bash entry points
 ├── prompts/                   unsafe / safe / neutral prompt CSVs
-├── eval/                      Qwen2.5-VL / CLIP / NudeNet judges
-├── docs/                      design notes (K/V vs. FFN, post-MLP anchors)
+├── eval/                      ResNet-50 / CLIP / NudeNet judges
 └── tests/                     unit tests for the FADE modules
 ```
 
@@ -51,9 +50,7 @@ conda activate fade
 pip install -r requirements.txt
 ```
 
-The Qwen2.5-VL judge (`eval/benchmarking/eval_img_wan21_qwen.py`) needs
-`transformers>=4.49` and is best kept in a separate environment. The NudeNet
-detector (`eval/benchmarking/nudity_eval_wan21.py`) and LPIPS
+The NudeNet detector (`eval/benchmarking/nudity_eval_wan21.py`) and LPIPS
 (`eval/benchmarking/eval_temporal_metrics.py`) are optional; install
 `nudenet` / `lpips` on demand.
 
@@ -141,8 +138,8 @@ python tools/inference.py \
 ### Evaluation
 
 ```bash
-# Objects (Qwen2.5-VL judge on Imagenette-10)
-VIDEO_ROOT=result/imagenette/church CONCEPT=church scripts/eval_object.sh
+# Objects (ResNet-50 Imagenette judge)
+VIDEO_ROOT=result/video/imagenette CASE_NAME=fade scripts/eval_object.sh
 
 # Artistic styles (CLIP similarity to reference works)
 VIDEO_ROOT=result/artists/van_gogh CONCEPT="Van Gogh" REF_DIR=data/van_gogh_refs \

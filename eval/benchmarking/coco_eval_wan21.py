@@ -73,9 +73,8 @@ class CLIPVideoScorer:
     """
 
     def __init__(self, device, clip_model_id):
-        # Lazy imports so the main process can spin up even without CLIP
-        # deps available, matching the pattern used by Qwen in
-        # `eval_img_wan21.py`.
+        # Lazy import so the main process can spin up even without CLIP
+        # deps available.
         from transformers import AutoProcessor, AutoTokenizer, CLIPModel
 
         self.device = device
