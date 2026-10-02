@@ -14,6 +14,8 @@
 #   SEED         RNG seed (default: 42)
 #   STEPS        UniPC steps (default: 50)
 #   GPUS         CUDA_VISIBLE_DEVICES, single value (default: 0)
+#   ORIG_CKPT    unedited Wan2.1 dir; enables Texture-Phase Decay if it exists
+#                (default: ckpt/Wan2.1-T2V-1.3B; set ORIG_CKPT= to disable)
 set -euo pipefail
 cd "$(dirname "$0")/.."
 
@@ -26,6 +28,12 @@ FRAME_NUM=${FRAME_NUM:-81}
 SIZE=${SIZE:-832*480}
 SEED=${SEED:-42}
 STEPS=${STEPS:-50}
+ORIG_CKPT=${ORIG_CKPT-ckpt/Wan2.1-T2V-1.3B}
+
+TPD_ARGS=()
+if [ -n "$ORIG_CKPT" ] && [ -d "$ORIG_CKPT" ]; then
+  TPD_ARGS=(--ts_uce_orig_ckpt "$ORIG_CKPT")
+fi
 
 CKPT_BASENAME="$(basename "$CKPT")"
 PROMPT_SLUG=$(echo "$PROMPT" \
@@ -46,6 +54,7 @@ CUDA_VISIBLE_DEVICES="$GPUS" python tools/inference.py \
     --frame_num "$FRAME_NUM" \
     --size "$SIZE" \
     --seed "$SEED" \
-    --num_inference_steps "$STEPS"
+    --num_inference_steps "$STEPS" \
+    ${TPD_ARGS[@]+"${TPD_ARGS[@]}"}
 
 echo "[inference] wrote $OUT"

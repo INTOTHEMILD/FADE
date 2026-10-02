@@ -195,7 +195,7 @@ FADE/
 │   └── configs/               concept registries and motion paraphrases
 ├── scripts/                   bash entry points (Stage 1, Stage 2, inference, evaluation)
 ├── prompts/                   unsafe / safe / neutral prompt CSVs
-├── eval/                      ResNet-50 / CLIP / NudeNet judges and temporal metrics
+├── eval/                      ResNet-50 / NudeNet judges, video generators, temporal metrics
 ├── assets/                    figures used in this README
 ├── paper/                     the FADE paper (PDF)
 └── tests/                     unit tests for the FADE modules
@@ -205,25 +205,39 @@ This repository contains the Wan2.1-T2V-1.3B implementation.
 
 ## ⚙️ Installation
 
+FADE targets **Linux with an NVIDIA GPU (CUDA)**. Our experiments use a single NVIDIA L20.
+
 ```bash
 conda create -n fade python=3.10 -y
 conda activate fade
 pip install -r requirements.txt
+pip install flash-attn --no-build-isolation   # required by the Wan2.1 attention kernels
 ```
 
-The optional evaluation extras `nudenet` (nudity judge) and `lpips` (temporal metrics) can be installed on demand.
+Notes:
+- The Wan2.1 DiT calls FlashAttention directly, so `flash-attn` is required for training and inference; it is not listed in `requirements.txt` because it must be built against your local CUDA and PyTorch.
+- `decord` provides wheels only for Linux and Windows.
+- The optional evaluation extras `nudenet` (nudity judge) and `lpips` (temporal metrics) can be installed on demand.
 
 ## 📦 Model weights
 
-Download Wan2.1-T2V-1.3B from the [official repository](https://github.com/Wan-Video/Wan2.1) and place it under `ckpt/`:
+Download Wan2.1-T2V-1.3B ([official repository](https://github.com/Wan-Video/Wan2.1)) into `ckpt/`:
+
+```bash
+pip install "huggingface_hub[cli]"
+huggingface-cli download Wan-AI/Wan2.1-T2V-1.3B --local-dir ckpt/Wan2.1-T2V-1.3B
+```
+
+The directory should contain:
 
 ```
 ckpt/
 └── Wan2.1-T2V-1.3B/
     ├── config.json
+    ├── diffusion_pytorch_model.safetensors
     ├── models_t5_umt5-xxl-enc-bf16.pth
     ├── Wan2.1_VAE.pth
-    └── diffusion_pytorch_model*.safetensors
+    └── google/umt5-xxl/          # T5 tokenizer
 ```
 
 Weights and generated media are ignored by `.gitignore`.
@@ -260,7 +274,7 @@ python tools/calibrate_router.py \
     --output        ckpt/lora_imagenette/routing_config.pt
 ```
 
-This writes `routing_config.pt` with the per-concept reference tokens and the calibrated gate thresholds `(τ_c, T_c)`.
+This writes `routing_config.pt` with the per-concept reference tokens and the calibrated gate thresholds `(τ_c, T_c)`. Inference mounts **every** concept listed in `routing_config.pt`, so the concept JSON must match the experts trained in Stage 2 and the output must go into the same LoRA directory. Use `concepts_imagenette.json` with `lora_imagenette`, `concepts_artists.json` with `lora_artists`, and `concepts_nsfw.json` with `lora_nudity`.
 
 ### Inference
 
@@ -279,7 +293,7 @@ python tools/inference.py \
 - `--gate_override` fixes all gates to one value.
 - `--ctx_cache` reuses precomputed T5 contexts.
 
-A shorter wrapper is also available:
+A shorter wrapper is also available. It enables Texture-Phase Decay automatically when `ORIG_CKPT` (default `ckpt/Wan2.1-T2V-1.3B`) exists:
 
 ```bash
 CKPT=ckpt/Wan2.1-T2V-1.3B-cr-imagenette LORA_DIR=ckpt/lora_imagenette \
@@ -288,22 +302,44 @@ PROMPT="A parachute drifting over a green field" scripts/inference.sh
 
 ### Evaluation
 
+The evaluators read a prompt manifest (`case_number, prompt, class, evaluation_seed`) and expect one video per row at
+
+```
+{VIDEO_ROOT}/{CASE_NAME}/{class_dir}/{sample_index}_seed{evaluation_seed}.mp4
+```
+
+Here `class_dir` is the `class` value with spaces replaced by underscores, and `sample_index` is the row's index within its class.
+
+**Generating videos.**
+- Unedited Wan2.1 baseline videos for the object manifest (`eval/dataset/imagenette_v.csv`):
+
+  ```bash
+  python eval/benchmarking/get_imagenette.py \
+      --ckpt_dir ckpt/Wan2.1-T2V-1.3B \
+      --save_dir result/video/imagenette --case_name origin
+  ```
+
+- FADE videos: run `tools/inference.py` once per manifest row, passing the row's `prompt` and `--seed <evaluation_seed>`, and save each video to the path above.
+
+**Scoring.**
+
 ```bash
 # Objects (ResNet-50 Imagenette judge)
 VIDEO_ROOT=result/video/imagenette CASE_NAME=fade scripts/eval_object.sh
 
-# Artistic styles (CLIP similarity to reference works)
-VIDEO_ROOT=result/artists/van_gogh CONCEPT="Van Gogh" REF_DIR=data/van_gogh_refs scripts/eval_style.sh
-
-# Nudity (NudeNet on I2P prompts)
-VIDEO_ROOT=result/nudity CASE_NAME=fade scripts/eval_nudity.sh
+# Nudity (NudeNet; manifest prompts/nudity/nudity_unsafe.csv by default)
+VIDEO_ROOT=result/video/nudity CASE_NAME=fade scripts/eval_nudity.sh
 ```
+
+The CLIP-based style evaluator used in the paper is not included in this release yet.
 
 ### Tests
 
 ```bash
 pytest tests/
 ```
+
+Run the tests on a CUDA machine: importing the Wan2.1 T5 module queries the current CUDA device.
 
 The unit tests cover:
 - FA-LoRA forward and backward passes

@@ -56,6 +56,9 @@ warnings.filterwarnings("ignore")
 import torch
 import torch.distributed as dist
 
+# Make the repository root importable when run as `python eval/benchmarking/<script>.py`.
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+
 import wan
 from wan.configs import SIZE_CONFIGS, WAN_CONFIGS
 from wan.utils.utils import cache_video, str2bool
