@@ -224,8 +224,12 @@ Download Wan2.1-T2V-1.3B ([official repository](https://github.com/Wan-Video/Wan
 
 ```bash
 pip install "huggingface_hub[cli]"
-huggingface-cli download Wan-AI/Wan2.1-T2V-1.3B --local-dir ckpt/Wan2.1-T2V-1.3B
+hf download Wan-AI/Wan2.1-T2V-1.3B --local-dir ckpt/Wan2.1-T2V-1.3B
 ```
+
+> On `huggingface_hub < 0.34` the CLI is named `huggingface-cli` instead, so use
+> `huggingface-cli download Wan-AI/Wan2.1-T2V-1.3B --local-dir ckpt/Wan2.1-T2V-1.3B`.
+> The old name still resolves on newer versions but prints a deprecation warning.
 
 The directory should contain:
 
