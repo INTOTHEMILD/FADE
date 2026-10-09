@@ -2,12 +2,11 @@
 
 # FADE: Frame-Aware Diffusion-Transformer-based Multi-Concept Erasure for Video Unlearning
 
-**Yuchen Li**<sup>1,*</sup> · **Kaiyuan Deng**<sup>2,*</sup> · **Chaoran Feng**<sup>1</sup> · **Zhenyu Tang**<sup>1</sup> · **Li Yuan**<sup>1,†</sup>
+**Yuchen Li**<sup>1,&#42;</sup> · **Kaiyuan Deng**<sup>2,&#42;</sup> · **Chaoran Feng**<sup>1</sup> · **Zhenyu Tang**<sup>1</sup> · **Li Yuan**<sup>1,†</sup>
 
-<sup>1</sup>Peking University &nbsp;&nbsp; <sup>2</sup>University of Arizona &nbsp;&nbsp; <sup>*</sup>Equal contribution &nbsp;&nbsp; <sup>†</sup>Corresponding author
+<sup>1</sup>Peking University &nbsp;&nbsp; <sup>2</sup>University of Arizona &nbsp;&nbsp; <sup>&#42;</sup>Equal contribution &nbsp;&nbsp; <sup>†</sup>Corresponding author
 
 [![arXiv](https://img.shields.io/badge/arXiv-2610.03980-b31b1b.svg)](https://arxiv.org/abs/2610.03980)
-[![Paper](https://img.shields.io/badge/Paper-PDF-b31b1b.svg)](https://arxiv.org/pdf/2610.03980)
 [![Backbone](https://img.shields.io/badge/Backbone-Wan2.1--T2V-6f42c1.svg)](https://github.com/Wan-Video/Wan2.1)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 
