@@ -2,11 +2,12 @@
 
 # FADE: Frame-Aware Diffusion-Transformer-based Multi-Concept Erasure for Video Unlearning
 
-**Yuchen Li**<sup>1</sup> · **Kaiyuan Deng**<sup>2</sup> · **Chaoran Feng**<sup>1</sup> · **Zhenyu Tang**<sup>1</sup> · **Xiaolong Ma**<sup>2,†</sup> · **Li Yuan**<sup>1,†</sup>
+**Yuchen Li**<sup>1,*</sup> · **Kaiyuan Deng**<sup>2,*</sup> · **Chaoran Feng**<sup>1</sup> · **Zhenyu Tang**<sup>1</sup> · **Li Yuan**<sup>1,†</sup>
 
-<sup>1</sup>Peking University &nbsp;&nbsp; <sup>2</sup>University of Arizona &nbsp;&nbsp; <sup>†</sup>Corresponding authors
+<sup>1</sup>Peking University &nbsp;&nbsp; <sup>2</sup>University of Arizona &nbsp;&nbsp; <sup>*</sup>Equal contribution &nbsp;&nbsp; <sup>†</sup>Corresponding author
 
-[![Paper](https://img.shields.io/badge/Paper-PDF-b31b1b.svg)](paper/FADE.pdf)
+[![arXiv](https://img.shields.io/badge/arXiv-2610.03980-b31b1b.svg)](https://arxiv.org/abs/2610.03980)
+[![Paper](https://img.shields.io/badge/Paper-PDF-b31b1b.svg)](https://arxiv.org/pdf/2610.03980)
 [![Backbone](https://img.shields.io/badge/Backbone-Wan2.1--T2V-6f42c1.svg)](https://github.com/Wan-Video/Wan2.1)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 
@@ -197,7 +198,6 @@ FADE/
 ├── prompts/                   unsafe / safe / neutral prompt CSVs
 ├── eval/                      ResNet-50 / NudeNet judges, video generators, temporal metrics
 ├── assets/                    figures used in this README
-├── paper/                     the FADE paper (PDF)
 └── tests/                     unit tests for the FADE modules
 ```
 
@@ -357,11 +357,11 @@ FADE builds on the [Wan2.1](https://github.com/Wan-Video/Wan2.1) backbone (Apach
 If you find FADE useful, please cite:
 
 ```bibtex
-@misc{li2026fade,
-  title  = {{FADE}: Frame-Aware Diffusion-Transformer-based Multi-Concept Erasure for Video Unlearning},
-  author = {Li, Yuchen and Deng, Kaiyuan and Feng, Chaoran and Tang, Zhenyu and Ma, Xiaolong and Yuan, Li},
-  year   = {2026},
-  note   = {Preprint}
+@article{li2026fade,
+  title   = {{FADE}: Frame-Aware Diffusion-Transformer-based Multi-Concept Erasure for Video Unlearning},
+  author  = {Li, Yuchen and Deng, Kaiyuan and Feng, Chaoran and Tang, Zhenyu and Yuan, Li},
+  journal = {arXiv preprint arXiv:2610.03980},
+  year    = {2026}
 }
 ```
 
